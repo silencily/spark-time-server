@@ -27,10 +27,16 @@ func newApp() *iris.Application {
 
 	mvc.New(app).Handle(new(controllers.IndexController))
 
+	mvc.Configure(app.Party("/spark"), spark)
+
 	return app
 }
 
 func main() {
 	app := newApp()
 	app.Run(iris.Addr(":8080"))
+}
+
+func spark(app *mvc.Application) {
+	app.Handle(new(controllers.SparkController))
 }
