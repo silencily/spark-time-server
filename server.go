@@ -23,6 +23,7 @@ func newApp() *iris.Application {
 	})
 
 	app.RegisterView(iris.HTML("./web/views", ".html"))
+	app.StaticWeb("/static", "./web/static")
 
 	mvc.New(app).Handle(new(controllers.IndexController))
 
