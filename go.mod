@@ -4,6 +4,7 @@ require (
 	github.com/go-kivik/couchdb v0.0.0-20190520192200-57eca2c0435d
 	github.com/go-kivik/kivik v0.0.0-20190509113000-22b54eda3db0
 	github.com/kataras/iris v0.0.0-20190526035200-63c26dc97890
+	golang.org/x/net v0.0.0-20181114220301-adae6a3d119a
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 )
 

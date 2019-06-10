@@ -20,7 +20,9 @@ github.com/fatih/structs v1.1.0/go.mod h1:9NiDSp5zOcgEDl+j00MP/WkGVPOlPRLejGD8Ga
 github.com/flosch/pongo2 v0.0.0-20180809100617-24195e6d38b0 h1:ZHx2BEERvWkuwuE7qWN9TuRxucHDH2JrsvneZjVJfo0=
 github.com/flosch/pongo2 v0.0.0-20180809100617-24195e6d38b0/go.mod h1:rE0ErqqBaMcp9pzj8JxV1GcfDBpuypXYxlR1c37AUwg=
 github.com/gavv/monotime v0.0.0-20171021193802-6f8212e8d10d/go.mod h1:vmp8DIyckQMXOPl0AQVHt+7n5h7Gb7hS6CUydiV8QeA=
+github.com/go-kivik/couchdb v0.0.0-20190520192200-57eca2c0435d h1:m7HnqgserSW/az2bHK2AcUR7AQuoWcFHTU4fwWPQISc=
 github.com/go-kivik/couchdb v0.0.0-20190520192200-57eca2c0435d/go.mod h1:5XJRkAMpBlEVA4q0ktIZjUPYBjoBmRoiWvwUBzP3BOQ=
+github.com/go-kivik/kivik v0.0.0-20190509113000-22b54eda3db0 h1:c7iJHxXTS+jQ+Je8mtguGL8Robrm8CmrqX0uFqgTNLM=
 github.com/go-kivik/kivik v0.0.0-20190509113000-22b54eda3db0/go.mod h1:nIuJ8z4ikBrVUSk3Ua8NoDqYKULPNjuddjqRvlSUyyQ=
 github.com/golang/crypto v0.0.0-20180803061100-56440b844dfe h1:5mnrK8ehEiGtS6xfi1zrGiJLtWrqj7AHIgJ0WJaCCoc=
 github.com/golang/crypto v0.0.0-20180803061100-56440b844dfe/go.mod h1:uZvAcrsnNaCxlh1HorK5dUQHGmEKPh2H/Rl1kehswPo=

@@ -10,3 +10,7 @@ func (c *SparkController) Get() map[string]interface{} {
 	}
 	return result
 }
+
+func GetImgBy(docId string) {
+
+}
