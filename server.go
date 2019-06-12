@@ -3,6 +3,8 @@ package main
 import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
+	"github.com/silencily/sparktime/core"
+	"github.com/silencily/sparktime/services"
 	"github.com/silencily/sparktime/web/controllers"
 	"gopkg.in/natefinch/lumberjack.v2"
 	"os"
@@ -21,6 +23,7 @@ func newApp() *iris.Application {
 		MaxAge:     28,   //days
 		Compress:   true, // disabled by default
 	})
+	core.SetRootLogger(log)
 
 	app.RegisterView(iris.HTML("./web/views", ".html"))
 	app.StaticWeb("/static", "./web/static")
@@ -38,5 +41,8 @@ func main() {
 }
 
 func spark(app *mvc.Application) {
+	sparkService := services.NewSparkService()
+	app.Register(sparkService)
+
 	app.Handle(new(controllers.SparkController))
 }

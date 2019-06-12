@@ -10,6 +10,7 @@ import (
 type SparkRepository interface {
 	//根据id获取spark
 	Get(id string) *models.Spark
+	GetImg(id string) *kivik.Attachment
 }
 
 type sparkCouchDBRepository struct {
@@ -30,4 +31,17 @@ func (rep *sparkCouchDBRepository) Get(id string) *models.Spark {
 		return nil
 	}
 	return &spark
+}
+
+func (rep *sparkCouchDBRepository) GetImg(id string) *kivik.Attachment {
+	row := rep.template.Get(context.TODO(), id)
+
+	if attachments := row.Attachments; attachments == nil {
+		return nil
+	}
+	img, err := row.Attachments.Next()
+	if err != nil {
+		return nil
+	}
+	return img
 }
