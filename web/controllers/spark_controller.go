@@ -6,6 +6,7 @@ import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
 	"github.com/silencily/sparktime/core"
+	"github.com/silencily/sparktime/models"
 	"github.com/silencily/sparktime/services"
 )
 
@@ -17,12 +18,9 @@ func getLogger() *golog.Logger {
 	return core.GetLogger("SparkController")
 }
 
-func (c *SparkController) Get() map[string]interface{} {
-	result := map[string]interface{}{
-		"name": "foo",
-		"time": 2,
-	}
-	return result
+func (c *SparkController) Get() []models.Spark {
+	sparks := c.SparkService.List()
+	return sparks
 }
 
 func (c *SparkController) GetImgBy(docId string) mvc.Result {
