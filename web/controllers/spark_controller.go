@@ -5,6 +5,7 @@ import (
 	"github.com/kataras/golog"
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
+	"github.com/kataras/iris/sessions"
 	"github.com/silencily/sparktime/core"
 	"github.com/silencily/sparktime/models"
 	"github.com/silencily/sparktime/services"
@@ -12,6 +13,7 @@ import (
 
 type SparkController struct {
 	SparkService services.SparkService
+	Session      *sessions.Session
 }
 
 func getLogger() *golog.Logger {
@@ -35,5 +37,10 @@ func (c *SparkController) GetImgBy(docId string) mvc.Result {
 		result.Code = iris.StatusNotFound
 	}
 	return result
+}
 
+func (c *SparkController) GetCaptcha() string {
+	sessionId := c.Session.ID()
+	captcha := core.GenerateCharacterCaptchaBase64Encoding(sessionId)
+	return captcha
 }

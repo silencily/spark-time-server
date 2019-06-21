@@ -1,0 +1,2201 @@
+[DBUG] 2019/05/31 18:17 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/05/31 18:17 Application: 1 registered view engine(s)
+[DBUG] 2019/05/31 18:17 Application: running using 1 host(s)
+[DBUG] 2019/05/31 18:17 Host: addr is :8080
+[DBUG] 2019/05/31 18:17 Host: virtual host is localhost:8080
+[DBUG] 2019/05/31 18:17 Host: register startup notifier
+[DBUG] 2019/05/31 18:17 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/05/31 18:17 200 1.999ms ::1 GET /
+[DBUG] 2019/06/06 16:02 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/06 16:02 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/06 16:02 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/06 16:02 Application: 1 registered view engine(s)
+[DBUG] 2019/06/06 16:02 Application: running using 1 host(s)
+[DBUG] 2019/06/06 16:02 Host: addr is :8080
+[DBUG] 2019/06/06 16:02 Host: virtual host is localhost:8080
+[DBUG] 2019/06/06 16:02 Host: register startup notifier
+[DBUG] 2019/06/06 16:02 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/06 16:02 200 10.9938ms ::1 GET /
+[INFO] 2019/06/06 16:02 200 68.9609ms ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js
+[INFO] 2019/06/06 16:02 200 46.9742ms ::1 GET /js/app.26fa289415d9f102625f.js
+[INFO] 2019/06/06 16:02 200 196.8872ms ::1 GET /css/app.ba502afc55d02a8c32c74a68a2a904b7.css
+[INFO] 2019/06/06 16:02 200 264.3668ms ::1 GET /js/vendor.0895cfeed11e4c2dd00a.js
+[INFO] 2019/06/06 16:02 200 97.9418ms ::1 GET /mock/data-init.json
+[INFO] 2019/06/06 16:02 200 216.8744ms ::1 GET /img/bs-pattern.png
+[INFO] 2019/06/06 16:02 200 228.8675ms ::1 GET /img/avatar-195x195.png
+[INFO] 2019/06/06 16:02 200 45.9735ms ::1 GET /img/2.jpg
+[INFO] 2019/06/06 16:02 200 59.9666ms ::1 GET /img/3.jpg
+[INFO] 2019/06/06 16:02 200 68.9754ms ::1 GET /img/5.jpg
+[INFO] 2019/06/06 16:02 200 25.0009ms ::1 GET /mock/data.json
+[INFO] 2019/06/06 16:02 200 1.9954ms ::1 GET /mock/data2.json
+[INFO] 2019/06/06 16:02 200   0s ::1 GET /
+[INFO] 2019/06/06 16:02 200 35.9771ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/06 16:03 200   0s ::1 GET /
+[INFO] 2019/06/06 16:03 200   0s ::1 GET /
+[INFO] 2019/06/06 16:03 200 50.9705ms ::1 GET /fonts/fontawesome-webfont.af7ae50.woff2
+[INFO] 2019/06/06 16:12 200 18.9874ms ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js.map
+[INFO] 2019/06/06 16:12 200 38.9755ms ::1 GET /js/app.26fa289415d9f102625f.js.map
+[INFO] 2019/06/06 16:12 200 117.9318ms ::1 GET /css/app.ba502afc55d02a8c32c74a68a2a904b7.css.map
+[INFO] 2019/06/06 16:12 200 307.822ms ::1 GET /js/vendor.0895cfeed11e4c2dd00a.js.map
+[DBUG] 2019/06/06 17:09 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/06 17:09 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/06 17:09 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/06 17:09 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/06 17:09 Application: 1 registered view engine(s)
+[DBUG] 2019/06/06 17:09 Application: running using 1 host(s)
+[DBUG] 2019/06/06 17:09 Host: addr is :8080
+[DBUG] 2019/06/06 17:09 Host: virtual host is localhost:8080
+[DBUG] 2019/06/06 17:09 Host: register startup notifier
+[DBUG] 2019/06/06 17:09 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/06 17:09 200 3.0007ms ::1 GET /
+[INFO] 2019/06/06 17:10 200 999.3µs ::1 GET /spark
+[INFO] 2019/06/06 17:10 200   0s ::1 GET /spark
+[DBUG] 2019/06/12 17:56 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/12 17:56 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 17:56 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/12 17:56 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 17:56 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/12 17:56 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/12 17:56 Application: 1 registered view engine(s)
+[DBUG] 2019/06/12 17:56 Application: running using 1 host(s)
+[DBUG] 2019/06/12 17:56 Host: addr is :8080
+[DBUG] 2019/06/12 17:56 Host: virtual host is localhost:8080
+[DBUG] 2019/06/12 17:56 Host: register startup notifier
+[DBUG] 2019/06/12 17:56 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/12 17:57 200 998.9µs ::1 GET /
+[INFO] 2019/06/12 17:57 304 999.8µs ::1 GET /css/app.ba502afc55d02a8c32c74a68a2a904b7.css
+[INFO] 2019/06/12 17:57 304 999.8µs ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js
+[INFO] 2019/06/12 17:57 304 994.6µs ::1 GET /js/vendor.0895cfeed11e4c2dd00a.js
+[INFO] 2019/06/12 17:57 304 1.9939ms ::1 GET /js/app.26fa289415d9f102625f.js
+[INFO] 2019/06/12 17:57 304 1.0007ms ::1 GET /mock/data-init.json
+[INFO] 2019/06/12 17:57 304 38.9787ms ::1 GET /img/avatar-195x195.png
+[INFO] 2019/06/12 17:57 304 35.978ms ::1 GET /img/bs-pattern.png
+[INFO] 2019/06/12 17:57 304 29.9821ms ::1 GET /img/3.jpg
+[INFO] 2019/06/12 17:57 304 27.9831ms ::1 GET /img/2.jpg
+[INFO] 2019/06/12 17:57 304 25.9844ms ::1 GET /img/5.jpg
+[INFO] 2019/06/12 17:57 200   0s ::1 GET /spark
+[WARN] 2019/06/12 17:58 Recovered from a route's Handler('github.com/kataras/iris/mvc.(*ControllerActivator).handlerOf.func2')
+At Request: 200 /spark/img/c9c09ef539dac8d52531a77d6100705e GET ::1
+Trace: runtime error: invalid memory address or nil pointer dereference
+
+D:/Tools/GO/src/runtime/asm_amd64.s:522
+D:/Tools/GO/src/runtime/panic.go:513
+D:/Tools/GO/src/runtime/panic.go:82
+D:/Tools/GO/src/runtime/signal_windows.go:204
+D:/WorkSpace/product/silencer/sparktime/code/spark-time-server/web/controllers/spark_controller.go:30
+D:/Tools/GO/src/runtime/asm_amd64.s:523
+D:/Tools/GO/src/reflect/value.go:447
+D:/Tools/GO/src/reflect/value.go:308
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/mvc/controller.go:353
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/mvc/controller.go:405
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1208
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1217
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/logger/logger.go:50
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/logger/logger.go:31
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1208
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1217
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/recover/recover.go:56
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:922
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1094
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/handler.go:227
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/router.go:84
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/router.go:161
+D:/Tools/GO/src/net/http/server.go:2741
+D:/Tools/GO/src/net/http/server.go:1847
+D:/Tools/GO/src/runtime/asm_amd64.s:1333
+
+[DBUG] 2019/06/12 18:03 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/12 18:03 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/12 18:03 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:03 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/12 18:03 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:03 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/12 18:03 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/12 18:03 Application: 1 registered view engine(s)
+[DBUG] 2019/06/12 18:03 Application: running using 1 host(s)
+[DBUG] 2019/06/12 18:03 Host: addr is :8080
+[DBUG] 2019/06/12 18:03 Host: virtual host is localhost:8080
+[DBUG] 2019/06/12 18:03 Host: register startup notifier
+[DBUG] 2019/06/12 18:03 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[WARN] 2019/06/12 18:04 Recovered from a route's Handler('github.com/kataras/iris/mvc.(*ControllerActivator).handlerOf.func2')
+At Request: 200 /spark/img/c9c09ef539dac8d52531a77d6100705e GET ::1
+Trace: runtime error: invalid memory address or nil pointer dereference
+
+D:/Tools/GO/src/runtime/asm_amd64.s:522
+D:/Tools/GO/src/runtime/panic.go:513
+D:/Tools/GO/src/runtime/panic.go:82
+D:/Tools/GO/src/runtime/signal_windows.go:204
+D:/Tools/GO/repository/pkg/mod/github.com/go-kivik/kivik@v0.0.0-20190509113000-22b54eda3db0/attachments.go:170
+D:/WorkSpace/product/silencer/sparktime/code/spark-time-server/repositories/spark_repository.go:38
+D:/WorkSpace/product/silencer/sparktime/code/spark-time-server/services/spark_service.go:23
+D:/WorkSpace/product/silencer/sparktime/code/spark-time-server/web/controllers/spark_controller.go:30
+D:/Tools/GO/src/runtime/asm_amd64.s:523
+D:/Tools/GO/src/reflect/value.go:447
+D:/Tools/GO/src/reflect/value.go:308
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/mvc/controller.go:353
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/mvc/controller.go:405
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1208
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1217
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/logger/logger.go:50
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/logger/logger.go:31
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1208
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1217
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/recover/recover.go:56
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:922
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1094
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/handler.go:227
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/router.go:84
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/router.go:161
+D:/Tools/GO/src/net/http/server.go:2741
+D:/Tools/GO/src/net/http/server.go:1847
+D:/Tools/GO/src/runtime/asm_amd64.s:1333
+
+[DBUG] 2019/06/12 18:12 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/12 18:12 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/12 18:12 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:12 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/12 18:12 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:12 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/12 18:12 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/12 18:12 Application: 1 registered view engine(s)
+[DBUG] 2019/06/12 18:12 Application: running using 1 host(s)
+[DBUG] 2019/06/12 18:12 Host: addr is :8080
+[DBUG] 2019/06/12 18:12 Host: virtual host is localhost:8080
+[DBUG] 2019/06/12 18:12 Host: register startup notifier
+[DBUG] 2019/06/12 18:12 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[WARN] 2019/06/12 18:12 Recovered from a route's Handler('github.com/kataras/iris/mvc.(*ControllerActivator).handlerOf.func2')
+At Request: 200 /spark/img/c9c09ef539dac8d52531a77d6100705e GET ::1
+Trace: runtime error: invalid memory address or nil pointer dereference
+
+D:/Tools/GO/src/runtime/asm_amd64.s:522
+D:/Tools/GO/src/runtime/panic.go:513
+D:/Tools/GO/src/runtime/panic.go:82
+D:/Tools/GO/src/runtime/signal_windows.go:204
+D:/WorkSpace/product/silencer/sparktime/code/spark-time-server/services/spark_service.go:24
+D:/WorkSpace/product/silencer/sparktime/code/spark-time-server/web/controllers/spark_controller.go:30
+D:/Tools/GO/src/runtime/asm_amd64.s:523
+D:/Tools/GO/src/reflect/value.go:447
+D:/Tools/GO/src/reflect/value.go:308
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/mvc/controller.go:353
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/mvc/controller.go:405
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1208
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1217
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/logger/logger.go:50
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/logger/logger.go:31
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1208
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1217
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/recover/recover.go:56
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:922
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1094
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/handler.go:227
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/router.go:84
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/router.go:161
+D:/Tools/GO/src/net/http/server.go:2741
+D:/Tools/GO/src/net/http/server.go:1847
+D:/Tools/GO/src/runtime/asm_amd64.s:1333
+
+[WARN] 2019/06/12 18:12 Recovered from a route's Handler('github.com/kataras/iris/mvc.(*ControllerActivator).handlerOf.func2')
+At Request: 200 /spark/img/c9c09ef539dac8d52531a77d6100705e GET ::1
+Trace: runtime error: invalid memory address or nil pointer dereference
+
+D:/Tools/GO/src/runtime/asm_amd64.s:522
+D:/Tools/GO/src/runtime/panic.go:513
+D:/Tools/GO/src/runtime/panic.go:82
+D:/Tools/GO/src/runtime/signal_windows.go:204
+D:/WorkSpace/product/silencer/sparktime/code/spark-time-server/services/spark_service.go:24
+D:/WorkSpace/product/silencer/sparktime/code/spark-time-server/web/controllers/spark_controller.go:30
+D:/Tools/GO/src/runtime/asm_amd64.s:523
+D:/Tools/GO/src/reflect/value.go:447
+D:/Tools/GO/src/reflect/value.go:308
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/mvc/controller.go:353
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/mvc/controller.go:405
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1208
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1217
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/logger/logger.go:50
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/logger/logger.go:31
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1208
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1217
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/recover/recover.go:56
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:922
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1094
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/handler.go:227
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/router.go:84
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/router.go:161
+D:/Tools/GO/src/net/http/server.go:2741
+D:/Tools/GO/src/net/http/server.go:1847
+D:/Tools/GO/src/runtime/asm_amd64.s:1333
+
+[WARN] 2019/06/12 18:13 Recovered from a route's Handler('github.com/kataras/iris/mvc.(*ControllerActivator).handlerOf.func2')
+At Request: 200 /spark/img/c9c09ef539dac8d52531a77d6100705e GET ::1
+Trace: runtime error: invalid memory address or nil pointer dereference
+
+D:/Tools/GO/src/runtime/asm_amd64.s:522
+D:/Tools/GO/src/runtime/panic.go:513
+D:/Tools/GO/src/runtime/panic.go:82
+D:/Tools/GO/src/runtime/signal_windows.go:204
+D:/WorkSpace/product/silencer/sparktime/code/spark-time-server/services/spark_service.go:24
+D:/WorkSpace/product/silencer/sparktime/code/spark-time-server/web/controllers/spark_controller.go:30
+D:/Tools/GO/src/runtime/asm_amd64.s:523
+D:/Tools/GO/src/reflect/value.go:447
+D:/Tools/GO/src/reflect/value.go:308
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/mvc/controller.go:353
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/mvc/controller.go:405
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1208
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1217
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/logger/logger.go:50
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/logger/logger.go:31
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1208
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1217
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/middleware/recover/recover.go:56
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:922
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/context/context.go:1094
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/handler.go:227
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/router.go:84
+D:/Tools/GO/repository/pkg/mod/github.com/kataras/iris@v0.0.0-20190526035200-63c26dc97890/core/router/router.go:161
+D:/Tools/GO/src/net/http/server.go:2741
+D:/Tools/GO/src/net/http/server.go:1847
+D:/Tools/GO/src/runtime/asm_amd64.s:1333
+
+[DBUG] 2019/06/12 18:16 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/12 18:16 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/12 18:16 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:16 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/12 18:16 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:16 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/12 18:16 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/12 18:16 Application: 1 registered view engine(s)
+[DBUG] 2019/06/12 18:16 Application: running using 1 host(s)
+[DBUG] 2019/06/12 18:16 Host: addr is :8080
+[DBUG] 2019/06/12 18:16 Host: virtual host is localhost:8080
+[DBUG] 2019/06/12 18:16 Host: register startup notifier
+[DBUG] 2019/06/12 18:16 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+SparkController: [ERRO] 2019/06/12 18:16 DocId:c9c09ef539dac8d52531a77d6100705e not found.[INFO] 2019/06/12 18:16 404 3.5710407s ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[DBUG] 2019/06/12 18:20 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/12 18:20 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/12 18:20 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:20 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/12 18:20 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:20 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/12 18:20 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/12 18:20 Application: 1 registered view engine(s)
+[DBUG] 2019/06/12 18:20 Application: running using 1 host(s)
+[DBUG] 2019/06/12 18:20 Host: addr is :8080
+[DBUG] 2019/06/12 18:20 Host: virtual host is localhost:8080
+[DBUG] 2019/06/12 18:20 Host: register startup notifier
+[DBUG] 2019/06/12 18:20 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+SparkController: [ERRO] 2019/06/12 18:20 DocId:c9c09ef539dac8d52531a77d6100705e not found.[INFO] 2019/06/12 18:20 404 2.8597764s ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+SparkController: [ERRO] 2019/06/12 18:22 DocId:c9c09ef539dac8d52531a77d6100705e not found.[INFO] 2019/06/12 18:22 404 1m54.8646293s ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[DBUG] 2019/06/12 18:24 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/12 18:24 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/12 18:24 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:24 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/12 18:24 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:24 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/12 18:24 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/12 18:24 Application: 1 registered view engine(s)
+[DBUG] 2019/06/12 18:24 Application: running using 1 host(s)
+[DBUG] 2019/06/12 18:24 Host: addr is :8080
+[DBUG] 2019/06/12 18:24 Host: virtual host is localhost:8080
+[DBUG] 2019/06/12 18:24 Host: register startup notifier
+[DBUG] 2019/06/12 18:24 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+SparkController: [ERRO] 2019/06/12 18:25 DocId:c9c09ef539dac8d52531a77d6100705e not found.
+[INFO] 2019/06/12 18:25 404 19.4167086s ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[DBUG] 2019/06/12 18:28 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/12 18:28 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/12 18:28 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:28 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/12 18:28 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:28 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/12 18:28 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/12 18:28 Application: 1 registered view engine(s)
+[DBUG] 2019/06/12 18:28 Application: running using 1 host(s)
+[DBUG] 2019/06/12 18:28 Host: addr is :8080
+[DBUG] 2019/06/12 18:28 Host: virtual host is localhost:8080
+[DBUG] 2019/06/12 18:28 Host: register startup notifier
+[DBUG] 2019/06/12 18:28 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+SparkController: [ERRO] 2019/06/12 18:28 DocId:c9c09ef539dac8d52531a77d6100705e not found.
+[INFO] 2019/06/12 18:29 404 33.715639s ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+SparkController: [ERRO] 2019/06/12 18:30 DocId:c9c09ef539dac8d52531a77d6100705e not found.
+[INFO] 2019/06/12 18:30 404 20.752335s ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[DBUG] 2019/06/12 18:32 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/12 18:32 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/12 18:32 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:32 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/12 18:32 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:32 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/12 18:32 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/12 18:32 Application: 1 registered view engine(s)
+[DBUG] 2019/06/12 18:32 Application: running using 1 host(s)
+[DBUG] 2019/06/12 18:32 Host: addr is :8080
+[DBUG] 2019/06/12 18:32 Host: virtual host is localhost:8080
+[DBUG] 2019/06/12 18:32 Host: register startup notifier
+[DBUG] 2019/06/12 18:32 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[DBUG] 2019/06/12 18:34 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/12 18:34 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/12 18:34 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:34 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/12 18:34 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/12 18:34 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/12 18:34 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/12 18:34 Application: 1 registered view engine(s)
+[DBUG] 2019/06/12 18:34 Application: running using 1 host(s)
+[DBUG] 2019/06/12 18:34 Host: addr is :8080
+[DBUG] 2019/06/12 18:34 Host: virtual host is localhost:8080
+[DBUG] 2019/06/12 18:34 Host: register startup notifier
+[DBUG] 2019/06/12 18:34 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[DBUG] 2019/06/13 09:54 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/13 09:54 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/13 09:54 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/13 09:54 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/13 09:54 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/13 09:54 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/13 09:54 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/13 09:54 Application: 1 registered view engine(s)
+[DBUG] 2019/06/13 09:54 Application: running using 1 host(s)
+[DBUG] 2019/06/13 09:54 Host: addr is :8080
+[DBUG] 2019/06/13 09:54 Host: virtual host is localhost:8080
+[DBUG] 2019/06/13 09:54 Host: register startup notifier
+[DBUG] 2019/06/13 09:54 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/13 09:54 200 998.9µs ::1 GET /
+[INFO] 2019/06/13 09:54 200   0s ::1 GET /spark
+SparkController: [ERRO] 2019/06/13 09:59 DocId: c9c09ef539dac8d52531a77d6100705e not found.
+[INFO] 2019/06/13 09:59 404 3m17.8440286s ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[DBUG] 2019/06/13 16:41 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/13 16:41 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/13 16:41 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/13 16:41 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/13 16:41 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/13 16:41 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/13 16:41 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/13 16:41 Application: 1 registered view engine(s)
+[DBUG] 2019/06/13 16:41 Application: running using 1 host(s)
+[DBUG] 2019/06/13 16:41 Host: addr is :8080
+[DBUG] 2019/06/13 16:41 Host: virtual host is localhost:8080
+[DBUG] 2019/06/13 16:41 Host: register startup notifier
+[DBUG] 2019/06/13 16:41 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/13 16:43 200 1m53.3680298s ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[DBUG] 2019/06/13 17:05 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/13 17:05 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/13 17:05 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/13 17:05 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/13 17:05 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/13 17:05 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/13 17:05 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/13 17:05 Application: 1 registered view engine(s)
+[DBUG] 2019/06/13 17:05 Application: running using 1 host(s)
+[DBUG] 2019/06/13 17:05 Host: addr is :8080
+[DBUG] 2019/06/13 17:05 Host: virtual host is localhost:8080
+[DBUG] 2019/06/13 17:05 Host: register startup notifier
+[DBUG] 2019/06/13 17:05 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/13 17:20 200 136.9253ms ::1 GET /
+[INFO] 2019/06/13 17:20 200 31.9817ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/13 17:20 200   0s ::1 GET /spark
+[INFO] 2019/06/13 17:20 200 694.1314ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[DBUG] 2019/06/13 18:04 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/13 18:04 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/13 18:04 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/13 18:04 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/13 18:04 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/13 18:04 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/13 18:04 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/13 18:04 Application: 1 registered view engine(s)
+[DBUG] 2019/06/13 18:04 Application: running using 1 host(s)
+[DBUG] 2019/06/13 18:04 Host: addr is :8080
+[DBUG] 2019/06/13 18:04 Host: virtual host is localhost:8080
+[DBUG] 2019/06/13 18:04 Host: register startup notifier
+[DBUG] 2019/06/13 18:04 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/13 18:05 200 1.9991ms ::1 GET /
+[INFO] 2019/06/13 18:05 200 1.0012ms ::1 GET /spark
+[DBUG] 2019/06/14 15:54 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/14 15:54 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/14 15:54 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/14 15:54 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/14 15:54 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/14 15:54 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/14 15:54 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/14 15:54 Application: 1 registered view engine(s)
+[DBUG] 2019/06/14 15:54 Application: running using 1 host(s)
+[DBUG] 2019/06/14 15:54 Host: addr is :8080
+[DBUG] 2019/06/14 15:54 Host: virtual host is localhost:8080
+[DBUG] 2019/06/14 15:54 Host: register startup notifier
+[DBUG] 2019/06/14 15:54 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/14 15:54 200 5.994ms ::1 GET /
+[INFO] 2019/06/14 15:54 304 30.9824ms ::1 GET /css/app.ba502afc55d02a8c32c74a68a2a904b7.css
+[INFO] 2019/06/14 15:54 304 37.9781ms ::1 GET /js/app.26fa289415d9f102625f.js
+[INFO] 2019/06/14 15:54 304 52.4802ms ::1 GET /js/vendor.0895cfeed11e4c2dd00a.js
+[INFO] 2019/06/14 15:54 304 80.4642ms ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js
+[INFO] 2019/06/14 15:54 304 999.3µs ::1 GET /mock/data-init.json
+[INFO] 2019/06/14 15:54 304 106.1356ms ::1 GET /img/avatar-195x195.png
+[INFO] 2019/06/14 15:54 304 104.1365ms ::1 GET /img/bs-pattern.png
+[INFO] 2019/06/14 15:54 304 1.9958ms ::1 GET /img/3.jpg
+[INFO] 2019/06/14 15:54 304 1.0007ms ::1 GET /img/2.jpg
+[INFO] 2019/06/14 15:54 304   0s ::1 GET /img/5.jpg
+[INFO] 2019/06/14 16:02 200   0s ::1 GET /
+[INFO] 2019/06/14 16:02 200 50.9701ms ::1 GET /img/favicon.ico
+[DBUG] 2019/06/14 16:10 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/14 16:10 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/14 16:10 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/14 16:10 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/14 16:10 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/14 16:10 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/14 16:10 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/14 16:10 Application: 1 registered view engine(s)
+[DBUG] 2019/06/14 16:10 Application: running using 1 host(s)
+[DBUG] 2019/06/14 16:10 Host: addr is :8080
+[DBUG] 2019/06/14 16:10 Host: virtual host is localhost:8080
+[DBUG] 2019/06/14 16:10 Host: register startup notifier
+[DBUG] 2019/06/14 16:10 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/14 16:10 200 1.0026ms ::1 GET /
+[INFO] 2019/06/14 16:10 200 2.001ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/14 16:14 200   0s ::1 GET /
+[INFO] 2019/06/14 16:14 200 9.9936ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/14 16:15 200   0s ::1 GET /
+[DBUG] 2019/06/14 16:28 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/14 16:28 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/14 16:28 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/14 16:28 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/14 16:28 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/14 16:28 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/14 16:28 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/14 16:28 Application: 1 registered view engine(s)
+[DBUG] 2019/06/14 16:28 Application: running using 1 host(s)
+[DBUG] 2019/06/14 16:28 Host: addr is :8080
+[DBUG] 2019/06/14 16:28 Host: virtual host is localhost:8080
+[DBUG] 2019/06/14 16:28 Host: register startup notifier
+[DBUG] 2019/06/14 16:28 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/14 16:30 200 17.0428785s ::1 GET /spark
+[INFO] 2019/06/14 16:30 200 2.2225093s ::1 GET /spark
+[INFO] 2019/06/14 16:30 200 2.4555113s ::1 GET /spark
+[DBUG] 2019/06/14 18:54 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/14 18:54 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/14 18:54 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/14 18:54 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/14 18:54 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/14 18:54 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/14 18:54 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/14 18:54 Application: 1 registered view engine(s)
+[DBUG] 2019/06/14 18:54 Application: running using 1 host(s)
+[DBUG] 2019/06/14 18:54 Host: addr is :8080
+[DBUG] 2019/06/14 18:54 Host: virtual host is localhost:8080
+[DBUG] 2019/06/14 18:54 Host: register startup notifier
+[DBUG] 2019/06/14 18:54 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/14 18:55 200 17.989ms ::1 GET /
+[INFO] 2019/06/14 18:55 200 6.9961ms ::1 GET /css/app.8c6704e1a5a0ca485aeb3e22ff1eb64c.css
+[INFO] 2019/06/14 18:55 200 999.7µs ::1 GET /js/app.c54c57ff9d98ebc7cf27.js
+[INFO] 2019/06/14 18:55 200 28.9842ms ::1 GET /js/vendor.d7b5c1ffe0ae7a5ee17a.js
+[INFO] 2019/06/14 18:55 200 461.7591ms ::1 GET /spark
+SparkController: [ERRO] 2019/06/14 18:55 DocId: undefined not found.
+[INFO] 2019/06/14 18:55 404 2.9947ms ::1 GET /spark/img/undefined
+[INFO] 2019/06/14 18:55 200 998.8µs ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js.map
+[INFO] 2019/06/14 18:55 200 9.9946ms ::1 GET /js/app.c54c57ff9d98ebc7cf27.js.map
+[INFO] 2019/06/14 18:55 200 143.9177ms ::1 GET /js/vendor.d7b5c1ffe0ae7a5ee17a.js.map
+[INFO] 2019/06/14 18:55 200 94.9453ms ::1 GET /css/app.8c6704e1a5a0ca485aeb3e22ff1eb64c.css.map
+[INFO] 2019/06/14 18:55 200 5.9903ms ::1 GET /spark
+[INFO] 2019/06/14 18:56 200 16.9865ms ::1 GET /spark
+[INFO] 2019/06/14 18:56 200 3.9991ms ::1 GET /spark
+[INFO] 2019/06/14 18:56 304 999.7µs ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js.map
+[INFO] 2019/06/14 18:56 304   0s ::1 GET /js/vendor.d7b5c1ffe0ae7a5ee17a.js.map
+[INFO] 2019/06/14 18:56 304 998.4µs ::1 GET /js/app.c54c57ff9d98ebc7cf27.js.map
+[INFO] 2019/06/14 18:56 304 2.9984ms ::1 GET /css/app.8c6704e1a5a0ca485aeb3e22ff1eb64c.css.map
+[INFO] 2019/06/14 18:57 200 25.9835ms ::1 GET /spark
+[INFO] 2019/06/14 18:58 200 5.9954ms ::1 GET /spark
+[INFO] 2019/06/14 18:58 200 14.9687ms ::1 GET /spark
+[INFO] 2019/06/14 18:59 200 3.0739813s ::1 GET /spark
+[DBUG] 2019/06/20 12:08 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/20 12:08 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/20 12:08 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 12:08 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/20 12:08 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 12:08 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/20 12:08 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/20 12:08 Application: 1 registered view engine(s)
+[DBUG] 2019/06/20 12:08 Application: running using 1 host(s)
+[DBUG] 2019/06/20 12:08 Host: addr is :8080
+[DBUG] 2019/06/20 12:08 Host: virtual host is localhost:8080
+[DBUG] 2019/06/20 12:08 Host: register startup notifier
+[DBUG] 2019/06/20 12:08 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/20 12:12 200 1.9977ms ::1 GET /
+[INFO] 2019/06/20 12:12 304 999.3µs ::1 GET /css/app.8c6704e1a5a0ca485aeb3e22ff1eb64c.css
+[INFO] 2019/06/20 12:12 304 998.8µs ::1 GET /js/vendor.d7b5c1ffe0ae7a5ee17a.js
+[INFO] 2019/06/20 12:12 304 38.9769ms ::1 GET /js/app.c54c57ff9d98ebc7cf27.js
+[INFO] 2019/06/20 12:12 200 118.9297ms ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js
+[INFO] 2019/06/20 12:12 200 303.9635ms ::1 GET /img/bs-pattern.png
+[INFO] 2019/06/20 12:12 200 349.8651ms ::1 GET /img/avatar-195x195.png
+[INFO] 2019/06/20 12:13 200 1.9159313s ::1 GET /spark
+SparkController: [ERRO] 2019/06/20 12:13 DocId: undefined not found.
+[INFO] 2019/06/20 12:13 404 8.9924ms ::1 GET /spark/img/undefined
+[INFO] 2019/06/20 12:13 304   0s ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js.map
+[INFO] 2019/06/20 12:13 304   0s ::1 GET /js/vendor.d7b5c1ffe0ae7a5ee17a.js.map
+[INFO] 2019/06/20 12:13 304   0s ::1 GET /js/app.c54c57ff9d98ebc7cf27.js.map
+[INFO] 2019/06/20 12:13 304 2.9863ms ::1 GET /css/app.8c6704e1a5a0ca485aeb3e22ff1eb64c.css.map
+[INFO] 2019/06/20 12:13 200 6.9961ms ::1 GET /spark
+[INFO] 2019/06/20 12:14 200 5.9944ms ::1 GET /spark
+[INFO] 2019/06/20 12:15 200 105.0052ms ::1 GET /spark
+[INFO] 2019/06/20 12:15 200 11.9927ms ::1 GET /spark
+[INFO] 2019/06/20 12:16 200 3.9968ms ::1 GET /spark
+[INFO] 2019/06/20 12:16 200 10.9939ms ::1 GET /spark
+[INFO] 2019/06/20 12:17 200 86.9504ms ::1 GET /spark
+[INFO] 2019/06/20 12:18 200 3.9996ms ::1 GET /spark
+[INFO] 2019/06/20 12:18 200 174.8992ms ::1 GET /spark
+[INFO] 2019/06/20 12:19 200 7.9959ms ::1 GET /spark
+[INFO] 2019/06/20 12:19 200 306.8242ms ::1 GET /spark
+[INFO] 2019/06/20 12:20 200 4.9975ms ::1 GET /spark
+[INFO] 2019/06/20 12:20 200 30.9815ms ::1 GET /spark
+[INFO] 2019/06/20 12:21 200 3.9986ms ::1 GET /spark
+[INFO] 2019/06/20 12:22 200 245.8597ms ::1 GET /spark
+[INFO] 2019/06/20 12:22 200 4.997ms ::1 GET /spark
+[INFO] 2019/06/20 12:23 200 17.9909ms ::1 GET /spark
+[INFO] 2019/06/20 12:23 200 4.0005ms ::1 GET /spark
+[INFO] 2019/06/20 12:24 200 116.9326ms ::1 GET /spark
+[INFO] 2019/06/20 12:25 200 3.9991ms ::1 GET /spark
+[INFO] 2019/06/20 12:25 200 147.9154ms ::1 GET /spark
+[INFO] 2019/06/20 12:26 200 4.997ms ::1 GET /spark
+[INFO] 2019/06/20 12:26 200 349.7988ms ::1 GET /spark
+[INFO] 2019/06/20 12:27 200 3.9954ms ::1 GET /spark
+[INFO] 2019/06/20 12:27 200 45.973ms ::1 GET /spark
+[INFO] 2019/06/20 12:28 200 4.9961ms ::1 GET /spark
+[INFO] 2019/06/20 12:29 200 411.7659ms ::1 GET /spark
+[INFO] 2019/06/20 12:29 200 4.997ms ::1 GET /spark
+[INFO] 2019/06/20 12:30 200 96.9449ms ::1 GET /spark
+[INFO] 2019/06/20 12:30 200 2.996ms ::1 GET /spark
+[INFO] 2019/06/20 12:31 200 112.9372ms ::1 GET /spark
+[INFO] 2019/06/20 12:32 200 9.9913ms ::1 GET /spark
+[INFO] 2019/06/20 12:32 200 98.9417ms ::1 GET /spark
+[INFO] 2019/06/20 12:33 200 7.988ms ::1 GET /spark
+[INFO] 2019/06/20 12:33 200 97.94ms ::1 GET /spark
+[INFO] 2019/06/20 12:34 200 2.998ms ::1 GET /spark
+[INFO] 2019/06/20 12:34 200 176.3529ms ::1 GET /spark
+[INFO] 2019/06/20 12:35 200 4.9965ms ::1 GET /spark
+[INFO] 2019/06/20 12:36 200 77.9319ms ::1 GET /spark
+[INFO] 2019/06/20 12:36 200 10.9794ms ::1 GET /spark
+[INFO] 2019/06/20 12:37 200 90.9463ms ::1 GET /spark
+[INFO] 2019/06/20 12:37 200 12.9925ms ::1 GET /spark
+[INFO] 2019/06/20 12:38 200 99.0415ms ::1 GET /spark
+[INFO] 2019/06/20 12:39 200 3.9949ms ::1 GET /spark
+[INFO] 2019/06/20 12:39 200 71.9574ms ::1 GET /spark
+[INFO] 2019/06/20 12:40 200 10.9691ms ::1 GET /spark
+[INFO] 2019/06/20 12:40 200 362.0052ms ::1 GET /spark
+[INFO] 2019/06/20 12:41 200 6.9919ms ::1 GET /spark
+[INFO] 2019/06/20 12:41 200 30.9763ms ::1 GET /spark
+[INFO] 2019/06/20 12:42 200 2.9975ms ::1 GET /spark
+[INFO] 2019/06/20 12:43 200 298.9412ms ::1 GET /spark
+[INFO] 2019/06/20 12:43 200 11.988ms ::1 GET /spark
+[INFO] 2019/06/20 12:44 200 158.9139ms ::1 GET /spark
+[INFO] 2019/06/20 12:44 200 7.995ms ::1 GET /spark
+[INFO] 2019/06/20 12:45 200 101.9405ms ::1 GET /spark
+[INFO] 2019/06/20 12:46 200 2.9956ms ::1 GET /spark
+[INFO] 2019/06/20 12:46 200 341.0052ms ::1 GET /spark
+[INFO] 2019/06/20 12:47 200 22.9875ms ::1 GET /spark
+[INFO] 2019/06/20 12:47 200 63.9634ms ::1 GET /spark
+[INFO] 2019/06/20 12:48 200 2.9979ms ::1 GET /spark
+[INFO] 2019/06/20 12:48 200 141.1218ms ::1 GET /spark
+[INFO] 2019/06/20 12:49 200 14.9715ms ::1 GET /spark
+[INFO] 2019/06/20 12:50 200 79.9529ms ::1 GET /spark
+[INFO] 2019/06/20 12:50 200 3.9987ms ::1 GET /spark
+[INFO] 2019/06/20 12:51 200 51.9689ms ::1 GET /spark
+[INFO] 2019/06/20 12:51 200 17.9895ms ::1 GET /spark
+[INFO] 2019/06/20 12:52 200 330.825ms ::1 GET /spark
+[INFO] 2019/06/20 12:53 200 5.9968ms ::1 GET /spark
+[INFO] 2019/06/20 12:53 200 96.9893ms ::1 GET /spark
+[INFO] 2019/06/20 12:54 200 3.993ms ::1 GET /spark
+[INFO] 2019/06/20 12:54 200 116.2351ms ::1 GET /spark
+[INFO] 2019/06/20 12:55 200 11.9843ms ::1 GET /spark
+[INFO] 2019/06/20 12:55 200 204.9275ms ::1 GET /spark
+[INFO] 2019/06/20 12:56 200 23.9872ms ::1 GET /spark
+[INFO] 2019/06/20 12:57 200 144.3143ms ::1 GET /spark
+[INFO] 2019/06/20 12:57 200 9.9875ms ::1 GET /spark
+[INFO] 2019/06/20 12:58 200 335.1483ms ::1 GET /spark
+[INFO] 2019/06/20 12:58 200 17.9792ms ::1 GET /spark
+[INFO] 2019/06/20 12:59 200 225.0355ms ::1 GET /spark
+[INFO] 2019/06/20 13:00 200 3.9977ms ::1 GET /spark
+[INFO] 2019/06/20 13:00 200 506.8857ms ::1 GET /spark
+[INFO] 2019/06/20 13:01 200 6.0136ms ::1 GET /spark
+[INFO] 2019/06/20 13:01 200 63.0644ms ::1 GET /spark
+[INFO] 2019/06/20 13:02 200 21.983ms ::1 GET /spark
+[INFO] 2019/06/20 13:02 200 426.1085ms ::1 GET /spark
+[INFO] 2019/06/20 13:03 200 12.9859ms ::1 GET /spark
+[INFO] 2019/06/20 13:04 200 494.9043ms ::1 GET /spark
+[INFO] 2019/06/20 13:04 200 2.9994ms ::1 GET /spark
+[INFO] 2019/06/20 13:05 200 312.0694ms ::1 GET /spark
+[INFO] 2019/06/20 13:05 200 7.9944ms ::1 GET /spark
+[INFO] 2019/06/20 13:06 200 406.378ms ::1 GET /spark
+[INFO] 2019/06/20 13:07 200 2.9979ms ::1 GET /spark
+[INFO] 2019/06/20 13:07 200 201.1855ms ::1 GET /spark
+[INFO] 2019/06/20 13:08 200 4.997ms ::1 GET /spark
+[INFO] 2019/06/20 13:08 200 116.0844ms ::1 GET /spark
+[INFO] 2019/06/20 13:09 200 6.0005ms ::1 GET /spark
+[INFO] 2019/06/20 13:09 200 12.9906ms ::1 GET /spark
+[INFO] 2019/06/20 13:10 200 4.9984ms ::1 GET /spark
+[INFO] 2019/06/20 13:11 200 6.9943ms ::1 GET /spark
+[INFO] 2019/06/20 13:11 200 17.9909ms ::1 GET /spark
+[INFO] 2019/06/20 13:12 200 24.9847ms ::1 GET /spark
+[INFO] 2019/06/20 13:12 200 6.9952ms ::1 GET /spark
+[INFO] 2019/06/20 13:13 200 149.2254ms ::1 GET /spark
+[INFO] 2019/06/20 13:14 200 10.9933ms ::1 GET /spark
+[INFO] 2019/06/20 13:14 200 18.9897ms ::1 GET /spark
+[INFO] 2019/06/20 13:15 200 22.9837ms ::1 GET /spark
+[INFO] 2019/06/20 13:15 200 19.9876ms ::1 GET /spark
+[INFO] 2019/06/20 13:16 200 27.9854ms ::1 GET /spark
+[INFO] 2019/06/20 13:16 200 35.9953ms ::1 GET /spark
+[INFO] 2019/06/20 13:17 200 100.9487ms ::1 GET /spark
+[INFO] 2019/06/20 13:18 200 15.9942ms ::1 GET /spark
+[INFO] 2019/06/20 13:18 200 21.0066ms ::1 GET /spark
+[INFO] 2019/06/20 13:19 200 18.9888ms ::1 GET /spark
+[INFO] 2019/06/20 13:19 200 31.9808ms ::1 GET /spark
+[INFO] 2019/06/20 13:20 200 24.9856ms ::1 GET /spark
+[INFO] 2019/06/20 13:21 200 115.9328ms ::1 GET /spark
+[DBUG] 2019/06/20 13:23 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/20 13:23 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/20 13:23 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 13:23 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/20 13:23 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 13:23 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/20 13:23 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/20 13:23 Application: 1 registered view engine(s)
+[DBUG] 2019/06/20 13:23 Application: running using 1 host(s)
+[DBUG] 2019/06/20 13:23 Host: addr is :8080
+[DBUG] 2019/06/20 13:23 Host: virtual host is localhost:8080
+[DBUG] 2019/06/20 13:23 Host: register startup notifier
+[DBUG] 2019/06/20 13:23 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/20 13:23 200 346.8601ms ::1 GET /spark
+[INFO] 2019/06/20 13:24 200   0s ::1 GET /
+[INFO] 2019/06/20 13:24 200 2.9974ms ::1 GET /js/app.06aad3517b544b884c01.js
+[INFO] 2019/06/20 13:24 200 3.9978ms ::1 GET /spark
+[INFO] 2019/06/20 13:24 200 14.9902ms ::1 GET /js/app.06aad3517b544b884c01.js.map
+SparkController: [ERRO] 2019/06/20 13:24 DocId: undefined not found.
+[INFO] 2019/06/20 13:24 404 4.9975ms ::1 GET /spark/img/undefined
+[INFO] 2019/06/20 13:24 200 2.9979ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 13:24 200 4.9966ms ::1 GET /spark
+[INFO] 2019/06/20 13:25 200 27.9873ms ::1 GET /spark
+[INFO] 2019/06/20 13:25 200 14.9901ms ::1 GET /spark
+[INFO] 2019/06/20 13:26 200 22.9865ms ::1 GET /spark
+[INFO] 2019/06/20 13:27 200 5.9963ms ::1 GET /spark
+[INFO] 2019/06/20 13:27 200 69.9607ms ::1 GET /spark
+[INFO] 2019/06/20 13:45 200   0s ::1 GET /
+[INFO] 2019/06/20 13:45 404 20.9874ms ::1 GET /js/app.06aad3517b544b884c01.js
+[INFO] 2019/06/20 13:45 404 995.1µs ::1 GET /js/app.06aad3517b544b884c01.js
+[INFO] 2019/06/20 13:45 200 2.9998ms ::1 GET /img/favicon.ico
+[DBUG] 2019/06/20 13:46 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/20 13:46 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/20 13:46 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 13:46 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/20 13:46 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 13:46 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/20 13:46 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/20 13:46 Application: 1 registered view engine(s)
+[DBUG] 2019/06/20 13:46 Application: running using 1 host(s)
+[DBUG] 2019/06/20 13:46 Host: addr is :8080
+[DBUG] 2019/06/20 13:46 Host: virtual host is localhost:8080
+[DBUG] 2019/06/20 13:46 Host: register startup notifier
+[DBUG] 2019/06/20 13:46 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/20 13:46 200 996µs ::1 GET /
+[INFO] 2019/06/20 13:46 200 998.3µs ::1 GET /js/app.3d6b1d4c58dd74c714c9.js
+[INFO] 2019/06/20 13:46 200 22.9865ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 13:46 200 1.9981ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 13:46 200 387.7783ms ::1 GET /spark
+[INFO] 2019/06/20 13:46 200 367.0857ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 13:46 200 1.9982ms ::1 GET /js/app.3d6b1d4c58dd74c714c9.js.map
+[INFO] 2019/06/20 13:46 200 135.9227ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 13:47 200   0s ::1 GET /
+[INFO] 2019/06/20 13:47 304 999.3µs ::1 GET /js/app.3d6b1d4c58dd74c714c9.js
+[INFO] 2019/06/20 13:47 304   0s ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 13:47 200 4.997ms ::1 GET /spark
+[INFO] 2019/06/20 13:47 200 47.9707ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 13:47 200 1.9976ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 13:47 200 2.9975ms ::1 GET /spark
+[INFO] 2019/06/20 13:47 304 996.9µs ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 13:47 304   0s ::1 GET /js/app.3d6b1d4c58dd74c714c9.js.map
+[INFO] 2019/06/20 13:48 200 22.994ms ::1 GET /spark
+[INFO] 2019/06/20 13:49 200   0s ::1 GET /
+[INFO] 2019/06/20 13:49 304 1.0021ms ::1 GET /js/app.3d6b1d4c58dd74c714c9.js
+[INFO] 2019/06/20 13:49 304 999.8µs ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 13:49 200 3.0063ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 13:49 200 136.9216ms ::1 GET /spark
+[INFO] 2019/06/20 13:49 200 41.9743ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 13:49 200 22.9879ms ::1 GET /spark
+[INFO] 2019/06/20 13:50 200 11.9913ms ::1 GET /spark
+[INFO] 2019/06/20 13:50 304 998.8µs ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 13:50 304   0s ::1 GET /js/app.3d6b1d4c58dd74c714c9.js.map
+[INFO] 2019/06/20 13:50 200 18.9888ms ::1 GET /spark
+[INFO] 2019/06/20 13:51 200 17.9872ms ::1 GET /spark
+[INFO] 2019/06/20 13:51 200 19.9899ms ::1 GET /spark
+[INFO] 2019/06/20 13:52 200 17.989ms ::1 GET /spark
+[INFO] 2019/06/20 13:52 200   0s ::1 GET /
+[INFO] 2019/06/20 13:52 304 1.0021ms ::1 GET /js/app.3d6b1d4c58dd74c714c9.js
+[INFO] 2019/06/20 13:52 304 997.9µs ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 13:52 200 4.9975ms ::1 GET /spark
+[INFO] 2019/06/20 13:52 200 51.9707ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 13:52 200 999.8µs ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 13:52 200   0s ::1 GET /
+[INFO] 2019/06/20 13:52 200 7.9973ms ::1 GET /spark
+[INFO] 2019/06/20 13:52 200 38.9755ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 13:52 200 999.8µs ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 13:53 200 35.9799ms ::1 GET /spark
+[INFO] 2019/06/20 13:54 200 10.9733ms ::1 GET /spark
+[INFO] 2019/06/20 13:54 304 998.8µs ::1 GET /js/app.3d6b1d4c58dd74c714c9.js.map
+[INFO] 2019/06/20 13:54 304 999.3µs ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 13:54 200 33.9771ms ::1 GET /spark
+[INFO] 2019/06/20 13:55 200 33.9705ms ::1 GET /spark
+[INFO] 2019/06/20 13:55 200 10.9905ms ::1 GET /spark
+[INFO] 2019/06/20 13:56 200 19.989ms ::1 GET /spark
+[INFO] 2019/06/20 13:57 200 37.9817ms ::1 GET /spark
+[INFO] 2019/06/20 13:57 200 18.9901ms ::1 GET /spark
+[INFO] 2019/06/20 13:58 200 85.9493ms ::1 GET /spark
+[INFO] 2019/06/20 13:58 200 22.9884ms ::1 GET /spark
+[INFO] 2019/06/20 13:59 200 18.9865ms ::1 GET /spark
+[INFO] 2019/06/20 13:59 200 14.0076ms ::1 GET /spark
+[INFO] 2019/06/20 14:00 200 36.9773ms ::1 GET /spark
+[INFO] 2019/06/20 14:01 200 54.9598ms ::1 GET /spark
+[INFO] 2019/06/20 14:01 200 32.9815ms ::1 GET /spark
+[INFO] 2019/06/20 14:02 200 12.993ms ::1 GET /spark
+[INFO] 2019/06/20 14:02 200 12.9813ms ::1 GET /spark
+[INFO] 2019/06/20 14:03 200 4.9961ms ::1 GET /spark
+[INFO] 2019/06/20 14:04 200 35.9799ms ::1 GET /spark
+[INFO] 2019/06/20 14:04 200 16.9902ms ::1 GET /spark
+[INFO] 2019/06/20 14:04 304   0s ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 14:04 304   0s ::1 GET /js/app.3d6b1d4c58dd74c714c9.js.map
+[INFO] 2019/06/20 14:05 200 11.9941ms ::1 GET /spark
+[INFO] 2019/06/20 14:05 200 29.9822ms ::1 GET /spark
+[INFO] 2019/06/20 14:06 200 15.9824ms ::1 GET /spark
+[INFO] 2019/06/20 14:06 200 12.992ms ::1 GET /spark
+[INFO] 2019/06/20 14:07 200 23.9872ms ::1 GET /spark
+[INFO] 2019/06/20 14:08 200 19.9858ms ::1 GET /spark
+[INFO] 2019/06/20 14:08 200 19.9877ms ::1 GET /spark
+[INFO] 2019/06/20 14:09 200 2.9984ms ::1 GET /spark
+[INFO] 2019/06/20 14:09 200 25.9839ms ::1 GET /spark
+[INFO] 2019/06/20 14:10 200 15.9913ms ::1 GET /spark
+[INFO] 2019/06/20 14:11 200 11.9927ms ::1 GET /spark
+[INFO] 2019/06/20 14:11 200 58.964ms ::1 GET /spark
+[INFO] 2019/06/20 14:12 200 18.9883ms ::1 GET /spark
+[INFO] 2019/06/20 14:12 200 16.9888ms ::1 GET /spark
+[INFO] 2019/06/20 14:12 200   0s ::1 GET /
+[INFO] 2019/06/20 14:12 304   0s ::1 GET /js/app.3d6b1d4c58dd74c714c9.js
+[INFO] 2019/06/20 14:12 304   0s ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 14:12 200 5.9968ms ::1 GET /spark
+[INFO] 2019/06/20 14:12 304 1.9986ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 14:12 304 3.9968ms ::1 GET /js/app.3d6b1d4c58dd74c714c9.js.map
+[INFO] 2019/06/20 14:12 200 288.8361ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:12 200 27.9835ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:13 200   0s ::1 GET /
+[INFO] 2019/06/20 14:13 200 24.9851ms ::1 GET /spark
+[INFO] 2019/06/20 14:13 200 163.9067ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:13 200 8.9957ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:13 200 8.9971ms ::1 GET /spark
+[INFO] 2019/06/20 14:14 200 10.9962ms ::1 GET /spark
+[INFO] 2019/06/20 14:15 200 8.9947ms ::1 GET /spark
+[INFO] 2019/06/20 14:15 200 5.9968ms ::1 GET /spark
+[INFO] 2019/06/20 14:15 200 33.9804ms ::1 GET /spark
+[INFO] 2019/06/20 14:17 304 997.9µs ::1 GET /js/app.3d6b1d4c58dd74c714c9.js.map
+[INFO] 2019/06/20 14:17 304   0s ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 14:17 200   0s ::1 GET /
+[INFO] 2019/06/20 14:17 304 1.0007ms ::1 GET /js/app.3d6b1d4c58dd74c714c9.js
+[INFO] 2019/06/20 14:17 304 1.0003ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 14:17 200 1.9972ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:17 200 2.4097626s ::1 GET /spark
+[INFO] 2019/06/20 14:17 200 67.9606ms ::1 GET /spark/img/52bc895256fd434cf6225fe0f9001452
+[INFO] 2019/06/20 14:17 200 127.9268ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:17 200 4.0173ms ::1 GET /spark
+[INFO] 2019/06/20 14:17 200   0s ::1 GET /
+[INFO] 2019/06/20 14:17 200 3.9986ms ::1 GET /spark
+[INFO] 2019/06/20 14:17 200 56.9669ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:17 200 97.9456ms ::1 GET /spark/img/52bc895256fd434cf6225fe0f9001452
+[INFO] 2019/06/20 14:17 200 3.9982ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:18 200   0s ::1 GET /
+[INFO] 2019/06/20 14:18 200 9.9931ms ::1 GET /spark
+[INFO] 2019/06/20 14:18 200 82.9532ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:18 200 126.9261ms ::1 GET /spark/img/52bc895256fd434cf6225fe0f9001452
+[INFO] 2019/06/20 14:18 200 3.9958ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:18 200 1.0031ms ::1 GET /
+[INFO] 2019/06/20 14:18 200 107.9387ms ::1 GET /spark
+[INFO] 2019/06/20 14:18 200 9.9955ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:18 200 68.9586ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:18 200 77.9566ms ::1 GET /spark/img/52bc895256fd434cf6225fe0f9001452
+[INFO] 2019/06/20 14:19 200   0s ::1 GET /
+[INFO] 2019/06/20 14:19 200 14.9906ms ::1 GET /spark
+[INFO] 2019/06/20 14:19 200 94.9458ms ::1 GET /spark/img/52bc895256fd434cf6225fe0f9001452
+[INFO] 2019/06/20 14:19 200 117.9332ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:19 200 4.998ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:19 200 5.9945ms ::1 GET /spark
+[INFO] 2019/06/20 14:20 200 3.9986ms ::1 GET /spark
+[INFO] 2019/06/20 14:20 200   0s ::1 GET /
+[INFO] 2019/06/20 14:20 304 998.8µs ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 14:20 304 2.9988ms ::1 GET /js/app.3d6b1d4c58dd74c714c9.js
+[INFO] 2019/06/20 14:20 200 17.9886ms ::1 GET /spark
+[INFO] 2019/06/20 14:20 200 81.9524ms ::1 GET /spark/img/52bc895256fd434cf6225fe0f9001452
+[INFO] 2019/06/20 14:20 200 119.931ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:20 200 4.9984ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:21 200 4.9961ms ::1 GET /spark
+[INFO] 2019/06/20 14:22 200 45.9763ms ::1 GET /spark
+[INFO] 2019/06/20 14:22 200 7.9959ms ::1 GET /spark
+[INFO] 2019/06/20 14:23 200 31.9813ms ::1 GET /spark
+[INFO] 2019/06/20 14:23 200 6.9961ms ::1 GET /spark
+[INFO] 2019/06/20 14:24 200 42.9741ms ::1 GET /spark
+[INFO] 2019/06/20 14:24 200 4.9979ms ::1 GET /spark
+[INFO] 2019/06/20 14:25 200 28.9842ms ::1 GET /spark
+[INFO] 2019/06/20 14:25 304 1.0016ms ::1 GET /js/app.3d6b1d4c58dd74c714c9.js.map
+[INFO] 2019/06/20 14:25 304 998.8µs ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 14:26 200 3.0147ms ::1 GET /spark
+[INFO] 2019/06/20 14:26 200 57.9675ms ::1 GET /spark
+[INFO] 2019/06/20 14:27 200 2.997ms ::1 GET /spark
+[INFO] 2019/06/20 14:27 200 38.9765ms ::1 GET /spark
+[INFO] 2019/06/20 14:28 200 3.9977ms ::1 GET /spark
+[INFO] 2019/06/20 14:28 200   0s ::1 GET /
+[INFO] 2019/06/20 14:28 304 999.3µs ::1 GET /js/app.3d6b1d4c58dd74c714c9.js
+[INFO] 2019/06/20 14:28 304 2.997ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 14:28 200 3.9973ms ::1 GET /spark
+[INFO] 2019/06/20 14:28 200 137.9107ms ::1 GET /spark/img/52bc895256fd434cf6225fe0f9001452
+[INFO] 2019/06/20 14:28 200 177.8943ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:28 200 1.0007ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:28 200   0s ::1 GET /
+[INFO] 2019/06/20 14:28 200 999.7µs ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:28 200 80.9536ms ::1 GET /spark
+[INFO] 2019/06/20 14:28 200 92.9472ms ::1 GET /spark/img/52bc895256fd434cf6225fe0f9001452
+[INFO] 2019/06/20 14:28 200 123.9286ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:29 200 498.7159ms ::1 GET /spark
+[DBUG] 2019/06/20 14:31 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/20 14:31 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/20 14:31 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 14:31 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/20 14:31 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 14:31 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/20 14:31 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/20 14:31 Application: 1 registered view engine(s)
+[DBUG] 2019/06/20 14:31 Application: running using 1 host(s)
+[DBUG] 2019/06/20 14:31 Host: addr is :8080
+[DBUG] 2019/06/20 14:31 Host: virtual host is localhost:8080
+[DBUG] 2019/06/20 14:31 Host: register startup notifier
+[DBUG] 2019/06/20 14:31 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/20 14:31 200 999.8µs ::1 GET /
+[INFO] 2019/06/20 14:31 200 1.9987ms ::1 GET /js/app.ff29c350217cc1adff79.js
+[INFO] 2019/06/20 14:31 200 11.995ms ::1 GET /css/app.55e683e264ed31fa96ed3f4bc6a2d662.css
+[INFO] 2019/06/20 14:31 200 998.8µs ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:31 200 362.8893ms ::1 GET /spark
+[INFO] 2019/06/20 14:31 200 63.9635ms ::1 GET /spark/img/52bc895256fd434cf6225fe0f9001452
+[INFO] 2019/06/20 14:31 200 111.9356ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:31 200 1.0003ms ::1 GET /
+[INFO] 2019/06/20 14:31 200 32.9815ms ::1 GET /spark
+[INFO] 2019/06/20 14:31 200 45.973ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:31 200 90.9481ms ::1 GET /spark/img/52bc895256fd434cf6225fe0f9001452
+[INFO] 2019/06/20 14:31 200 2.9984ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:32 200 4.0005ms ::1 GET /spark
+[INFO] 2019/06/20 14:32 200 3.9987ms ::1 GET /spark
+[INFO] 2019/06/20 14:33 200   0s ::1 GET /
+[INFO] 2019/06/20 14:33 304 999.3µs ::1 GET /css/app.55e683e264ed31fa96ed3f4bc6a2d662.css
+[INFO] 2019/06/20 14:33 304 1.9986ms ::1 GET /js/app.ff29c350217cc1adff79.js
+[INFO] 2019/06/20 14:33 200 25.985ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 14:33 200 4.998ms ::1 GET /spark
+[INFO] 2019/06/20 14:33 200 83.951ms ::1 GET /spark/img/52bc895256fd434cf6225fe0f9001452
+[INFO] 2019/06/20 14:33 200 151.9159ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:33 200 1.9991ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:33 200 2.9984ms ::1 GET /js/app.ff29c350217cc1adff79.js.map
+[INFO] 2019/06/20 14:33 200 14.9883ms ::1 GET /css/app.55e683e264ed31fa96ed3f4bc6a2d662.css.map
+[INFO] 2019/06/20 14:33 200 165.903ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 14:33 200 39.9785ms ::1 GET /spark
+[INFO] 2019/06/20 14:34 200 14.9911ms ::1 GET /spark
+[INFO] 2019/06/20 14:34 200 33.9803ms ::1 GET /spark
+[INFO] 2019/06/20 14:35 200 7.9954ms ::1 GET /spark
+[INFO] 2019/06/20 14:36 200 24.987ms ::1 GET /spark
+[INFO] 2019/06/20 14:36 200 15.9928ms ::1 GET /spark
+[INFO] 2019/06/20 14:37 200 27.9845ms ::1 GET /spark
+[INFO] 2019/06/20 14:37 200 12.0113ms ::1 GET /spark
+[INFO] 2019/06/20 14:38 200 18.9883ms ::1 GET /spark
+[INFO] 2019/06/20 14:39 200 13.9922ms ::1 GET /spark
+[INFO] 2019/06/20 14:39 200 11.9922ms ::1 GET /spark
+[INFO] 2019/06/20 14:40 200 17.9881ms ::1 GET /spark
+[INFO] 2019/06/20 14:40 200 59.9658ms ::1 GET /spark
+[INFO] 2019/06/20 14:41 200 77.9571ms ::1 GET /spark
+[INFO] 2019/06/20 14:41 200 17.9881ms ::1 GET /spark
+[INFO] 2019/06/20 14:42 200 4.0159ms ::1 GET /spark
+[INFO] 2019/06/20 14:43 200 18.9878ms ::1 GET /spark
+[INFO] 2019/06/20 14:43 200 10.9933ms ::1 GET /spark
+[INFO] 2019/06/20 14:44 200 22.986ms ::1 GET /spark
+[INFO] 2019/06/20 14:44 200 46.9737ms ::1 GET /spark
+[INFO] 2019/06/20 14:45 200 79.9538ms ::1 GET /spark
+[INFO] 2019/06/20 14:46 200 33.9798ms ::1 GET /spark
+[INFO] 2019/06/20 14:46 200 62.9632ms ::1 GET /spark
+[INFO] 2019/06/20 14:47 200 64.9646ms ::1 GET /spark
+[INFO] 2019/06/20 14:47 200   0s ::1 GET /
+[INFO] 2019/06/20 14:47 304   0s ::1 GET /js/app.ff29c350217cc1adff79.js
+[INFO] 2019/06/20 14:47 200 12.9929ms ::1 GET /css/app.55e683e264ed31fa96ed3f4bc6a2d662.css
+[INFO] 2019/06/20 14:47 200 44.9751ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 14:47 200 21.989ms ::1 GET /css/app.55e683e264ed31fa96ed3f4bc6a2d662.css.map
+[INFO] 2019/06/20 14:47 200 6.9961ms ::1 GET /spark
+[INFO] 2019/06/20 14:47 304   0s ::1 GET /js/app.ff29c350217cc1adff79.js.map
+[INFO] 2019/06/20 14:47 200 232.8639ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 14:47 200 107.9374ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:47 200 242.8654ms ::1 GET /spark/img/52bc895256fd434cf6225fe0f9001452
+[INFO] 2019/06/20 14:47 200 11.9932ms ::1 GET /img/favicon.ico
+[DBUG] 2019/06/20 14:49 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/20 14:49 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/20 14:49 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 14:49 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/20 14:49 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 14:49 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/20 14:49 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/20 14:49 Application: 1 registered view engine(s)
+[DBUG] 2019/06/20 14:49 Application: running using 1 host(s)
+[DBUG] 2019/06/20 14:49 Host: addr is :8080
+[DBUG] 2019/06/20 14:49 Host: virtual host is localhost:8080
+[DBUG] 2019/06/20 14:49 Host: register startup notifier
+[DBUG] 2019/06/20 14:49 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/20 14:49 200 396.7818ms 127.0.0.1 GET /spark
+[INFO] 2019/06/20 14:49 200   0s 127.0.0.1 GET /
+[INFO] 2019/06/20 14:49 304 999.3µs 127.0.0.1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 14:49 304 999.3µs 127.0.0.1 GET /css/app.55e683e264ed31fa96ed3f4bc6a2d662.css
+[INFO] 2019/06/20 14:49 200 3.9977ms ::1 GET /js/app.b1c3f7d4428bc48230da.js
+[INFO] 2019/06/20 14:49 200 8.9938ms 127.0.0.1 GET /js/app.b1c3f7d4428bc48230da.js.map
+[INFO] 2019/06/20 14:49 304 998.9µs ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 14:49 304 998.9µs ::1 GET /css/app.55e683e264ed31fa96ed3f4bc6a2d662.css.map
+[INFO] 2019/06/20 14:49 200 17.9908ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 14:49 200 18.0077ms ::1 GET /spark
+[INFO] 2019/06/20 14:49 200 59.9671ms ::1 GET /spark/img/52bc895256fd434cf6225fe0f9001452
+[INFO] 2019/06/20 14:49 200 113.9337ms 127.0.0.1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 14:50 304 999.8µs 127.0.0.1 GET /css/app.55e683e264ed31fa96ed3f4bc6a2d662.css
+[INFO] 2019/06/20 14:50 304   0s 127.0.0.1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 14:50 304   0s ::1 GET /js/app.b1c3f7d4428bc48230da.js.map
+[INFO] 2019/06/20 14:50 304 998.8µs ::1 GET /css/app.55e683e264ed31fa96ed3f4bc6a2d662.css.map
+[INFO] 2019/06/20 14:50 200 14.9901ms ::1 GET /spark
+[INFO] 2019/06/20 14:51 200 3.9968ms ::1 GET /spark
+[INFO] 2019/06/20 14:51 200 19.9867ms ::1 GET /spark
+[INFO] 2019/06/20 14:52 200 48.9723ms ::1 GET /spark
+[INFO] 2019/06/20 14:52 200 28.9847ms ::1 GET /spark
+[INFO] 2019/06/20 14:53 200 12.9934ms ::1 GET /spark
+[INFO] 2019/06/20 14:53 200 18.985ms ::1 GET /spark
+[INFO] 2019/06/20 14:54 200 15.9908ms ::1 GET /spark
+[INFO] 2019/06/20 14:55 200 18.9939ms ::1 GET /spark
+[INFO] 2019/06/20 14:55 200 65.9654ms ::1 GET /spark
+[INFO] 2019/06/20 14:56 200 131.9222ms ::1 GET /spark
+[INFO] 2019/06/20 14:56 200 8.9953ms ::1 GET /spark
+[INFO] 2019/06/20 14:57 200 72.9573ms ::1 GET /spark
+[INFO] 2019/06/20 14:58 200 10.9906ms ::1 GET /spark
+[INFO] 2019/06/20 14:58 200 28.9805ms ::1 GET /spark
+[INFO] 2019/06/20 14:59 200 12.9925ms ::1 GET /spark
+[INFO] 2019/06/20 14:59 200 13.9908ms ::1 GET /spark
+[INFO] 2019/06/20 15:00 200 12.992ms ::1 GET /spark
+[INFO] 2019/06/20 15:00 200 72.9609ms ::1 GET /spark
+[INFO] 2019/06/20 15:01 200 48.9728ms ::1 GET /spark
+[INFO] 2019/06/20 15:02 200 232.8677ms ::1 GET /spark
+[INFO] 2019/06/20 15:02 200 12.9925ms ::1 GET /spark
+[INFO] 2019/06/20 15:03 200 11.9927ms ::1 GET /spark
+[INFO] 2019/06/20 15:03 200 12.993ms ::1 GET /spark
+[INFO] 2019/06/20 15:04 200 57.9661ms ::1 GET /spark
+[INFO] 2019/06/20 15:05 200 8.9957ms ::1 GET /spark
+[INFO] 2019/06/20 15:05 200 58.0357ms ::1 GET /spark
+[INFO] 2019/06/20 15:06 200 13.9903ms ::1 GET /spark
+[INFO] 2019/06/20 15:06 200 33.9808ms ::1 GET /spark
+[INFO] 2019/06/20 15:07 200 58.9664ms ::1 GET /spark
+[INFO] 2019/06/20 15:07 200 16.9878ms ::1 GET /spark
+[INFO] 2019/06/20 15:08 200 12.9934ms ::1 GET /spark
+[INFO] 2019/06/20 15:09 200 12.9916ms ::1 GET /spark
+[INFO] 2019/06/20 15:09 200 10.992ms ::1 GET /spark
+[INFO] 2019/06/20 15:10 200 35.9798ms ::1 GET /spark
+[INFO] 2019/06/20 15:10 200 25.9835ms ::1 GET /spark
+[DBUG] 2019/06/20 15:12 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/20 15:12 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/20 15:12 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 15:12 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/20 15:12 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 15:12 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/20 15:12 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/20 15:12 Application: 1 registered view engine(s)
+[DBUG] 2019/06/20 15:12 Application: running using 1 host(s)
+[DBUG] 2019/06/20 15:12 Host: addr is :8080
+[DBUG] 2019/06/20 15:12 Host: virtual host is localhost:8080
+[DBUG] 2019/06/20 15:12 Host: register startup notifier
+[DBUG] 2019/06/20 15:12 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/20 15:12 200 5.9973ms ::1 GET /
+[INFO] 2019/06/20 15:12 200 3.9982ms ::1 GET /js/app.f85a8d705b604660478e.js
+[INFO] 2019/06/20 15:12 200 3.9968ms ::1 GET /css/app.21fd15078897a0ff690358e10fdef3b6.css
+[INFO] 2019/06/20 15:12 200 34.9778ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 15:12 200 2.0033ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 15:13 200 452.7391ms ::1 GET /spark
+[INFO] 2019/06/20 15:13 200 67.9606ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 15:13 200 6.9943ms ::1 GET /spark
+[INFO] 2019/06/20 15:14 200 26.9861ms ::1 GET /spark
+[INFO] 2019/06/20 15:14 200 20.9874ms ::1 GET /spark
+[INFO] 2019/06/20 15:15 200 19.9881ms ::1 GET /spark
+[INFO] 2019/06/20 15:16 200 13.9918ms ::1 GET /spark
+[INFO] 2019/06/20 15:16 200 42.9755ms ::1 GET /spark
+[INFO] 2019/06/20 15:17 304 999.7µs ::1 GET /css/app.21fd15078897a0ff690358e10fdef3b6.css
+[INFO] 2019/06/20 15:17 200 2.9989ms ::1 GET /js/app.f85a8d705b604660478e.js.map
+[INFO] 2019/06/20 15:17 200 128.9247ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 15:17 200 47.9726ms ::1 GET /css/app.21fd15078897a0ff690358e10fdef3b6.css.map
+[INFO] 2019/06/20 15:17 200 11.9895ms ::1 GET /spark
+[INFO] 2019/06/20 15:17 200 27.9835ms ::1 GET /spark
+[INFO] 2019/06/20 15:18 200 11.9923ms ::1 GET /spark
+[INFO] 2019/06/20 15:19 200 6.9965ms ::1 GET /spark
+[INFO] 2019/06/20 15:19 200 2.997ms ::1 GET /spark
+[INFO] 2019/06/20 15:20 200 5.995ms ::1 GET /spark
+[INFO] 2019/06/20 15:20 200   0s ::1 GET /
+[INFO] 2019/06/20 15:20 304 1.0002ms ::1 GET /js/app.f85a8d705b604660478e.js
+[INFO] 2019/06/20 15:20 304   0s ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 15:20 304 999.3µs ::1 GET /css/app.21fd15078897a0ff690358e10fdef3b6.css
+[INFO] 2019/06/20 15:20 304   0s ::1 GET /js/app.f85a8d705b604660478e.js.map
+[INFO] 2019/06/20 15:20 304   0s ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 15:20 304   0s ::1 GET /css/app.21fd15078897a0ff690358e10fdef3b6.css.map
+[INFO] 2019/06/20 15:20 200 5.9945ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 15:21 200 71.9589ms ::1 GET /spark
+[INFO] 2019/06/20 15:21 200 48.9705ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 15:21 200 4.997ms ::1 GET /spark
+[INFO] 2019/06/20 15:22 200 36.9769ms ::1 GET /spark
+[INFO] 2019/06/20 15:22 200 75.9552ms ::1 GET /spark
+[INFO] 2019/06/20 15:23 200 26.9843ms ::1 GET /spark
+[INFO] 2019/06/20 15:24 200 20.9883ms ::1 GET /spark
+[INFO] 2019/06/20 15:24 200 63.9643ms ::1 GET /spark
+[INFO] 2019/06/20 15:25 200 23.9858ms ::1 GET /spark
+[INFO] 2019/06/20 15:25 200 37.9622ms ::1 GET /spark
+[INFO] 2019/06/20 15:26 200 14.9915ms ::1 GET /spark
+[INFO] 2019/06/20 15:27 200 18.986ms ::1 GET /spark
+[INFO] 2019/06/20 15:27 200 22.0016ms ::1 GET /spark
+[INFO] 2019/06/20 15:28 200 42.9741ms ::1 GET /spark
+[INFO] 2019/06/20 15:28 200 11.9945ms ::1 GET /spark
+[INFO] 2019/06/20 15:29 200 69.9597ms ::1 GET /spark
+[INFO] 2019/06/20 15:29 200 101.9415ms ::1 GET /spark
+[DBUG] 2019/06/20 15:47 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/20 15:47 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/20 15:47 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 15:47 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/20 15:47 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 15:47 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/20 15:47 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/20 15:47 Application: 1 registered view engine(s)
+[DBUG] 2019/06/20 15:47 Application: running using 1 host(s)
+[DBUG] 2019/06/20 15:47 Host: addr is :8080
+[DBUG] 2019/06/20 15:47 Host: virtual host is localhost:8080
+[DBUG] 2019/06/20 15:47 Host: register startup notifier
+[DBUG] 2019/06/20 15:47 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/20 15:47 200 2.9988ms ::1 GET /
+[INFO] 2019/06/20 15:47 200 14.9911ms ::1 GET /css/app.8fd99479bac41cdd52ae4848ed794f8f.css
+[INFO] 2019/06/20 15:47 200 20.9879ms ::1 GET /js/app.fb00e9da40a715df389d.js
+[INFO] 2019/06/20 15:47 200 50.9696ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 15:47 200 10.9924ms ::1 GET /js/app.fb00e9da40a715df389d.js.map
+[INFO] 2019/06/20 15:47 200 14.9953ms ::1 GET /css/app.8fd99479bac41cdd52ae4848ed794f8f.css.map
+[INFO] 2019/06/20 15:47 200 1.9991ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 15:47 200 192.8891ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 15:47 200 370.9435ms ::1 GET /spark
+[INFO] 2019/06/20 15:47 200 92.9495ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 15:48 200 10.9892ms ::1 GET /spark
+[INFO] 2019/06/20 15:49 200 92.2497ms ::1 GET /spark
+[INFO] 2019/06/20 15:49 200 6.9948ms ::1 GET /spark
+[INFO] 2019/06/20 15:50 200 35.9771ms ::1 GET /spark
+[INFO] 2019/06/20 15:50 304   0s ::1 GET /css/app.8fd99479bac41cdd52ae4848ed794f8f.css
+[INFO] 2019/06/20 15:50 304 1.0002ms ::1 GET /js/app.fb00e9da40a715df389d.js.map
+[INFO] 2019/06/20 15:50 304 998.9µs ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 15:50 304 1.9982ms ::1 GET /css/app.8fd99479bac41cdd52ae4848ed794f8f.css.map
+[INFO] 2019/06/20 15:50 200 8.0019ms ::1 GET /spark
+[INFO] 2019/06/20 15:51 200   0s ::1 GET /
+[INFO] 2019/06/20 15:51 304 998.8µs ::1 GET /css/app.8fd99479bac41cdd52ae4848ed794f8f.css
+[INFO] 2019/06/20 15:51 304 998.8µs ::1 GET /js/app.fb00e9da40a715df389d.js
+[INFO] 2019/06/20 15:51 304 11.9922ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 15:51 304 998.9µs ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 15:51 304   0s ::1 GET /js/app.fb00e9da40a715df389d.js.map
+[INFO] 2019/06/20 15:51 304 1.0012ms ::1 GET /css/app.8fd99479bac41cdd52ae4848ed794f8f.css.map
+[INFO] 2019/06/20 15:51 200 1.9981ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 15:51 200 58.0076ms ::1 GET /spark
+[INFO] 2019/06/20 15:51 200 34.9806ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 15:52 200 4.9928ms ::1 GET /spark
+[INFO] 2019/06/20 15:52 200 109.9373ms ::1 GET /spark
+[INFO] 2019/06/20 15:53 200 5.9954ms ::1 GET /spark
+[INFO] 2019/06/20 15:53 200 38.9764ms ::1 GET /spark
+[INFO] 2019/06/20 15:54 200 3.9991ms ::1 GET /spark
+[INFO] 2019/06/20 15:55 200 33.9994ms ::1 GET /spark
+[INFO] 2019/06/20 15:55 200 7.995ms ::1 GET /spark
+[INFO] 2019/06/20 15:56 200 74.0839ms ::1 GET /spark
+[INFO] 2019/06/20 15:56 200 7.0017ms ::1 GET /spark
+[INFO] 2019/06/20 15:57 200 53.9694ms ::1 GET /spark
+[INFO] 2019/06/20 15:58 200 6.9957ms ::1 GET /spark
+[INFO] 2019/06/20 15:58 200 96.923ms ::1 GET /spark
+[INFO] 2019/06/20 15:59 200 3.9968ms ::1 GET /spark
+[INFO] 2019/06/20 15:59 200 70.9861ms ::1 GET /spark
+[INFO] 2019/06/20 16:00 200 7.9642ms ::1 GET /spark
+[INFO] 2019/06/20 16:00 200 25.9826ms ::1 GET /spark
+[INFO] 2019/06/20 16:01 200 6.9962ms ::1 GET /spark
+[INFO] 2019/06/20 16:02 200 69.9621ms ::1 GET /spark
+[INFO] 2019/06/20 16:02 200 5.9959ms ::1 GET /spark
+[INFO] 2019/06/20 16:03 200 35.9752ms ::1 GET /spark
+[INFO] 2019/06/20 16:03 200 5.9958ms ::1 GET /spark
+[INFO] 2019/06/20 16:04 200 18.9888ms ::1 GET /spark
+[INFO] 2019/06/20 16:05 200 2.9774ms ::1 GET /spark
+[INFO] 2019/06/20 16:05 200 42.9746ms ::1 GET /spark
+[INFO] 2019/06/20 16:06 200 9.9935ms ::1 GET /spark
+[INFO] 2019/06/20 16:06 200 51.968ms ::1 GET /spark
+[INFO] 2019/06/20 16:07 200 3.9972ms ::1 GET /spark
+[INFO] 2019/06/20 16:07 200 30.9819ms ::1 GET /spark
+[INFO] 2019/06/20 16:08 200 3.9987ms ::1 GET /spark
+[INFO] 2019/06/20 16:09 200 45.9753ms ::1 GET /spark
+[INFO] 2019/06/20 16:09 200 3.9963ms ::1 GET /spark
+[DBUG] 2019/06/20 16:11 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/20 16:11 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/20 16:11 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 16:11 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/20 16:11 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 16:11 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/20 16:11 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/20 16:11 Application: 1 registered view engine(s)
+[DBUG] 2019/06/20 16:11 Application: running using 1 host(s)
+[DBUG] 2019/06/20 16:11 Host: addr is :8080
+[DBUG] 2019/06/20 16:11 Host: virtual host is localhost:8080
+[DBUG] 2019/06/20 16:11 Host: register startup notifier
+[DBUG] 2019/06/20 16:11 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/20 16:11 200 385.8972ms ::1 GET /spark
+[INFO] 2019/06/20 16:12 200 5.0007ms ::1 GET /spark
+[INFO] 2019/06/20 16:12 200 998.4µs ::1 GET /
+[INFO] 2019/06/20 16:12 200 999.8µs ::1 GET /js/app.10acc4cd11cd873212d4.js
+[INFO] 2019/06/20 16:12 200 7.9949ms ::1 GET /css/app.8fd99479bac41cdd52ae4848ed794f8f.css
+[INFO] 2019/06/20 16:12 200 38.9769ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 16:12 200 3.9977ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 16:12 200 72.9586ms ::1 GET /spark
+[INFO] 2019/06/20 16:12 200 31.9813ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 16:12 304 997.9µs ::1 GET /css/app.8fd99479bac41cdd52ae4848ed794f8f.css
+[INFO] 2019/06/20 16:12 200 1.9986ms ::1 GET /js/app.10acc4cd11cd873212d4.js.map
+[INFO] 2019/06/20 16:12 200 11.9927ms ::1 GET /css/app.8fd99479bac41cdd52ae4848ed794f8f.css.map
+[INFO] 2019/06/20 16:12 200 131.9241ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 16:13 200 8.9892ms ::1 GET /spark
+[INFO] 2019/06/20 16:14 200 60.965ms ::1 GET /spark
+[INFO] 2019/06/20 16:14 304 1.0016ms ::1 GET /js/app.10acc4cd11cd873212d4.js.map
+[INFO] 2019/06/20 16:14 304 997.9µs ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 16:14 304 999.7µs ::1 GET /css/app.8fd99479bac41cdd52ae4848ed794f8f.css.map
+[INFO] 2019/06/20 16:14 200 6.0006ms ::1 GET /spark
+[INFO] 2019/06/20 16:15 200 33.978ms ::1 GET /spark
+[INFO] 2019/06/20 16:15 200 3.9777ms ::1 GET /spark
+[INFO] 2019/06/20 16:16 200 79.9534ms ::1 GET /spark
+[INFO] 2019/06/20 16:16 200 4.0033ms ::1 GET /spark
+[INFO] 2019/06/20 16:17 200 17.9932ms ::1 GET /spark
+[INFO] 2019/06/20 16:18 200 3.9939ms ::1 GET /spark
+[INFO] 2019/06/20 16:18 200 54.9678ms ::1 GET /spark
+[INFO] 2019/06/20 16:19 200 4.9975ms ::1 GET /spark
+[INFO] 2019/06/20 16:19 200 38.9773ms ::1 GET /spark
+[INFO] 2019/06/20 16:20 200 5.9972ms ::1 GET /spark
+[INFO] 2019/06/20 16:21 200 19.989ms ::1 GET /spark
+[INFO] 2019/06/20 16:21 200 4.0001ms ::1 GET /spark
+[INFO] 2019/06/20 16:22 200 8.9915ms ::1 GET /spark
+[INFO] 2019/06/20 16:22 200 5.9963ms ::1 GET /spark
+[INFO] 2019/06/20 16:23 200 8.9947ms ::1 GET /spark
+[INFO] 2019/06/20 16:23 200 4.9961ms ::1 GET /spark
+[INFO] 2019/06/20 16:24 200 26.9814ms ::1 GET /spark
+[INFO] 2019/06/20 16:25 200 3.9972ms ::1 GET /spark
+[INFO] 2019/06/20 16:25 200 41.9739ms ::1 GET /spark
+[INFO] 2019/06/20 16:26 200 96.9509ms ::1 GET /spark
+[INFO] 2019/06/20 16:26 200 57.9652ms ::1 GET /spark
+[INFO] 2019/06/20 16:27 200 22.005ms ::1 GET /spark
+[INFO] 2019/06/20 16:28 200 16.9883ms ::1 GET /spark
+[INFO] 2019/06/20 16:28 200 119.9304ms ::1 GET /spark
+[INFO] 2019/06/20 16:29 200 18.9902ms ::1 GET /spark
+[INFO] 2019/06/20 16:29 200 28.9852ms ::1 GET /spark
+[INFO] 2019/06/20 16:30 200 13.9922ms ::1 GET /spark
+[INFO] 2019/06/20 16:30 200 23.0141ms ::1 GET /spark
+[INFO] 2019/06/20 16:31 200 28.9768ms ::1 GET /spark
+[INFO] 2019/06/20 16:32 200 30.9764ms ::1 GET /spark
+[INFO] 2019/06/20 16:32 200 69.9411ms ::1 GET /spark
+[INFO] 2019/06/20 16:33 200 16.9888ms ::1 GET /spark
+[INFO] 2019/06/20 16:33 200 76.1843ms ::1 GET /spark
+[INFO] 2019/06/20 16:34 200 69.9598ms ::1 GET /spark
+[INFO] 2019/06/20 16:35 200 42.9685ms ::1 GET /spark
+[INFO] 2019/06/20 16:35 200 16.9906ms ::1 GET /spark
+[INFO] 2019/06/20 16:36 200 21.9877ms ::1 GET /spark
+[INFO] 2019/06/20 16:36 200 97.9452ms ::1 GET /spark
+[INFO] 2019/06/20 16:37 200 88.9509ms ::1 GET /spark
+[INFO] 2019/06/20 16:37 200 71.0243ms ::1 GET /spark
+[INFO] 2019/06/20 16:38 200 31.9804ms ::1 GET /spark
+[INFO] 2019/06/20 16:39 200 102.9287ms ::1 GET /spark
+[INFO] 2019/06/20 16:39 200 2.9932ms ::1 GET /spark
+[INFO] 2019/06/20 16:40 200 32.9801ms ::1 GET /spark
+[INFO] 2019/06/20 16:40 200 83.0087ms ::1 GET /spark
+[INFO] 2019/06/20 16:41 200 87.0456ms ::1 GET /spark
+[INFO] 2019/06/20 16:42 200 42.9727ms ::1 GET /spark
+[INFO] 2019/06/20 16:42 200 95.0662ms ::1 GET /spark
+[INFO] 2019/06/20 16:43 200 62.9585ms ::1 GET /spark
+[INFO] 2019/06/20 16:43 200 36.9848ms ::1 GET /spark
+[INFO] 2019/06/20 16:44 200 63.147ms ::1 GET /spark
+[INFO] 2019/06/20 16:44 200 39.9776ms ::1 GET /spark
+[INFO] 2019/06/20 16:45 200 37.9785ms ::1 GET /spark
+[INFO] 2019/06/20 16:46 200 32.9815ms ::1 GET /spark
+[INFO] 2019/06/20 16:46 200 52.9687ms ::1 GET /spark
+[INFO] 2019/06/20 16:47 200 43.9763ms ::1 GET /spark
+[INFO] 2019/06/20 16:47 200 3.9949ms ::1 GET /spark
+[INFO] 2019/06/20 16:48 200 97.9928ms ::1 GET /spark
+[INFO] 2019/06/20 16:49 200 13.9922ms ::1 GET /spark
+[INFO] 2019/06/20 16:49 200 24.9665ms ::1 GET /spark
+[INFO] 2019/06/20 16:50 200 13.9913ms ::1 GET /spark
+[INFO] 2019/06/20 16:50 200 27.9836ms ::1 GET /spark
+[INFO] 2019/06/20 16:51 200 17.9904ms ::1 GET /spark
+[INFO] 2019/06/20 16:51 200 81.9511ms ::1 GET /spark
+[INFO] 2019/06/20 16:52 200 67.9612ms ::1 GET /spark
+[INFO] 2019/06/20 16:53 200 80.941ms ::1 GET /spark
+[INFO] 2019/06/20 16:53 200 23.9826ms ::1 GET /spark
+[INFO] 2019/06/20 16:54 200 59.9606ms ::1 GET /spark
+[INFO] 2019/06/20 16:54 200 45.9753ms ::1 GET /spark
+[INFO] 2019/06/20 16:55 200 117.0403ms ::1 GET /spark
+[INFO] 2019/06/20 16:56 200 73.9244ms ::1 GET /spark
+[INFO] 2019/06/20 16:56 200 77.0632ms ::1 GET /spark
+[INFO] 2019/06/20 16:57 200 65.0953ms ::1 GET /spark
+[INFO] 2019/06/20 16:57 200 30.0022ms ::1 GET /spark
+[INFO] 2019/06/20 16:58 200 91.0438ms ::1 GET /spark
+[INFO] 2019/06/20 16:58 200 23.9868ms ::1 GET /spark
+[INFO] 2019/06/20 16:59 200 75.9533ms ::1 GET /spark
+[INFO] 2019/06/20 16:59 304   0s ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 16:59 304   0s ::1 GET /js/app.10acc4cd11cd873212d4.js.map
+[INFO] 2019/06/20 16:59 304 999.8µs ::1 GET /css/app.8fd99479bac41cdd52ae4848ed794f8f.css.map
+[INFO] 2019/06/20 17:00 200 69.9603ms ::1 GET /spark
+[INFO] 2019/06/20 17:00 200 31.957ms ::1 GET /spark
+[INFO] 2019/06/20 17:01 200 33.9817ms ::1 GET /spark
+[INFO] 2019/06/20 17:01 200 6.9956ms ::1 GET /spark
+[INFO] 2019/06/20 17:02 200 43.9762ms ::1 GET /spark
+[INFO] 2019/06/20 17:03 200 16.9916ms ::1 GET /spark
+[INFO] 2019/06/20 17:03 200 29.9826ms ::1 GET /spark
+[INFO] 2019/06/20 17:04 200 44.9747ms ::1 GET /spark
+[INFO] 2019/06/20 17:04 200 89.9469ms ::1 GET /spark
+[INFO] 2019/06/20 17:05 200 27.984ms ::1 GET /spark
+[DBUG] 2019/06/20 17:12 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/20 17:12 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/20 17:12 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 17:12 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/20 17:12 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 17:12 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/20 17:12 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/20 17:12 Application: 1 registered view engine(s)
+[DBUG] 2019/06/20 17:12 Application: running using 1 host(s)
+[DBUG] 2019/06/20 17:12 Host: addr is :8080
+[DBUG] 2019/06/20 17:12 Host: virtual host is localhost:8080
+[DBUG] 2019/06/20 17:12 Host: register startup notifier
+[DBUG] 2019/06/20 17:12 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/20 17:12 200 1.0021ms ::1 GET /
+[INFO] 2019/06/20 17:12 200 1.9986ms ::1 GET /js/app.f84e8a537f9c6b18b38f.js
+[INFO] 2019/06/20 17:12 200 15.9903ms ::1 GET /css/app.febbb8dd0714432f38d277e4ea0c05a7.css
+[INFO] 2019/06/20 17:12 200 40.9759ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 17:12 200 999.3µs ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 17:12 200 1.9982ms ::1 GET /js/app.f84e8a537f9c6b18b38f.js.map
+[INFO] 2019/06/20 17:12 200 13.9918ms ::1 GET /css/app.febbb8dd0714432f38d277e4ea0c05a7.css.map
+[INFO] 2019/06/20 17:12 200 139.9195ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 17:13 200   0s ::1 GET /
+[INFO] 2019/06/20 17:13 304 1.0017ms ::1 GET /css/app.febbb8dd0714432f38d277e4ea0c05a7.css
+[INFO] 2019/06/20 17:13 200 1.0054ms ::1 GET /
+[INFO] 2019/06/20 17:13 304   0s ::1 GET /js/app.f84e8a537f9c6b18b38f.js
+[INFO] 2019/06/20 17:13 304   0s ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 17:13 304   0s ::1 GET /js/app.f84e8a537f9c6b18b38f.js.map
+[INFO] 2019/06/20 17:13 304 991.4µs ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 17:13 304   0s ::1 GET /css/app.febbb8dd0714432f38d277e4ea0c05a7.css.map
+[INFO] 2019/06/20 17:13 200 998.4µs ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 17:14 200   0s ::1 GET /
+[INFO] 2019/06/20 17:14 200 1.999ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 17:14 304 1.0002ms ::1 GET /css/app.febbb8dd0714432f38d277e4ea0c05a7.css
+[INFO] 2019/06/20 17:14 200 352.7987ms ::1 GET /spark
+[INFO] 2019/06/20 17:14 200 28.981ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 17:15 200 3.9959ms ::1 GET /spark
+[INFO] 2019/06/20 17:15 200 175.9568ms ::1 GET /spark
+[INFO] 2019/06/20 17:16 200 4.9979ms ::1 GET /spark
+[INFO] 2019/06/20 17:17 200 23.9853ms ::1 GET /spark
+[INFO] 2019/06/20 17:17 200 33.9799ms ::1 GET /spark
+[INFO] 2019/06/20 17:18 200 32.974ms ::1 GET /spark
+[INFO] 2019/06/20 17:18 200 4.9965ms ::1 GET /spark
+[INFO] 2019/06/20 17:19 200 132.0276ms ::1 GET /spark
+[INFO] 2019/06/20 17:20 200 16.9893ms ::1 GET /spark
+[INFO] 2019/06/20 17:20 200 90.95ms ::1 GET /spark
+[INFO] 2019/06/20 17:21 200 7.995ms ::1 GET /spark
+[INFO] 2019/06/20 17:21 200 13.9931ms ::1 GET /spark
+[INFO] 2019/06/20 17:22 200 4.9965ms ::1 GET /spark
+[INFO] 2019/06/20 17:22 200   0s ::1 GET /
+[INFO] 2019/06/20 17:22 200 14.9915ms ::1 GET /css/app.febbb8dd0714432f38d277e4ea0c05a7.css
+[INFO] 2019/06/20 17:22 200 1.0003ms ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js
+[INFO] 2019/06/20 17:22 200 6.9951ms ::1 GET /js/app.f84e8a537f9c6b18b38f.js
+[INFO] 2019/06/20 17:22 200 49.9716ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 17:22 200 999.7µs ::1 GET /img/avatar-195x195.png
+[INFO] 2019/06/20 17:22 200 997.9µs ::1 GET /img/bs-pattern.png
+[INFO] 2019/06/20 17:22 200 3.9977ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 17:22 200 82.9504ms ::1 GET /spark
+[INFO] 2019/06/20 17:22 200 12.9934ms ::1 GET /css/app.febbb8dd0714432f38d277e4ea0c05a7.css.map
+[INFO] 2019/06/20 17:23 200 4.998ms ::1 GET /spark
+[INFO] 2019/06/20 17:23 200 39.9767ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 17:23 200 3.9977ms ::1 GET /spark
+[INFO] 2019/06/20 17:23 200 1.9987ms ::1 GET /js/app.f84e8a537f9c6b18b38f.js.map
+[INFO] 2019/06/20 17:24 200 49.9721ms ::1 GET /spark
+[INFO] 2019/06/20 17:24 200 3.9977ms ::1 GET /spark
+[INFO] 2019/06/20 17:24 200 3.0026ms ::1 GET /spark
+[INFO] 2019/06/20 17:24 200 4.9956ms ::1 GET /spark
+[INFO] 2019/06/20 17:25 200   0s ::1 GET /
+[INFO] 2019/06/20 17:25 304   0s ::1 GET /css/app.febbb8dd0714432f38d277e4ea0c05a7.css
+[INFO] 2019/06/20 17:25 304 1.0002ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/20 17:25 304 999.3µs ::1 GET /js/app.f84e8a537f9c6b18b38f.js
+[INFO] 2019/06/20 17:25 200 2.9985ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/20 17:25 304 2.9975ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/20 17:25 200 56.9655ms ::1 GET /spark
+[INFO] 2019/06/20 17:25 304   0s ::1 GET /js/app.f84e8a537f9c6b18b38f.js.map
+[INFO] 2019/06/20 17:25 304 997.4µs ::1 GET /css/app.febbb8dd0714432f38d277e4ea0c05a7.css.map
+[INFO] 2019/06/20 17:25 200 4.9961ms ::1 GET /spark
+[INFO] 2019/06/20 17:25 200 50.9691ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/20 17:25 200 5.0008ms ::1 GET /spark
+[INFO] 2019/06/20 17:26 200 31.9803ms ::1 GET /spark
+[INFO] 2019/06/20 17:26 200 4.9975ms ::1 GET /spark
+[INFO] 2019/06/20 17:26 200 4.997ms ::1 GET /spark
+[INFO] 2019/06/20 17:26 200 7.9963ms ::1 GET /spark
+[INFO] 2019/06/20 17:27 200 18.9888ms ::1 GET /spark
+[INFO] 2019/06/20 17:27 200 6.9929ms ::1 GET /spark
+[INFO] 2019/06/20 17:28 200 6.9965ms ::1 GET /spark
+[INFO] 2019/06/20 17:28 200 3.9977ms ::1 GET /spark
+[INFO] 2019/06/20 17:28 200 7.9954ms ::1 GET /spark
+[INFO] 2019/06/20 17:28 200 5.9963ms ::1 GET /spark
+[INFO] 2019/06/20 17:29 200 4.9971ms ::1 GET /spark
+[INFO] 2019/06/20 17:29 200 24.9851ms ::1 GET /spark
+[INFO] 2019/06/20 17:29 200 3.9978ms ::1 GET /spark
+[INFO] 2019/06/20 17:29 200 9.9936ms ::1 GET /spark
+[INFO] 2019/06/20 17:30 200 33.978ms ::1 GET /spark
+[INFO] 2019/06/20 17:30 200 20.9869ms ::1 GET /spark
+[INFO] 2019/06/20 17:30 200 19.9863ms ::1 GET /spark
+[INFO] 2019/06/20 17:31 200 11.9955ms ::1 GET /spark
+[INFO] 2019/06/20 17:31 200 282.9429ms ::1 GET /spark
+[INFO] 2019/06/20 17:31 200 10.9953ms ::1 GET /spark
+[INFO] 2019/06/20 17:32 200 267.8459ms ::1 GET /spark
+[INFO] 2019/06/20 17:32 200 3.9987ms ::1 GET /spark
+[INFO] 2019/06/20 17:32 200 266.8475ms ::1 GET /spark
+[INFO] 2019/06/20 17:32 200 4.9957ms ::1 GET /spark
+[INFO] 2019/06/20 17:33 200 35.9799ms ::1 GET /spark
+[INFO] 2019/06/20 17:33 200 3.9977ms ::1 GET /spark
+[INFO] 2019/06/20 17:33 200 23.9859ms ::1 GET /spark
+[INFO] 2019/06/20 17:33 200 9.9932ms ::1 GET /spark
+[INFO] 2019/06/20 17:34 200 120.9298ms ::1 GET /spark
+[INFO] 2019/06/20 17:34 200 4.997ms ::1 GET /spark
+[INFO] 2019/06/20 17:35 200 20.9874ms ::1 GET /spark
+[INFO] 2019/06/20 17:35 200 19.9886ms ::1 GET /spark
+[INFO] 2019/06/20 17:35 200 42.9732ms ::1 GET /spark
+[INFO] 2019/06/20 17:35 200 5.9945ms ::1 GET /spark
+[INFO] 2019/06/20 17:36 200 17.9895ms ::1 GET /spark
+[INFO] 2019/06/20 17:36 200 3.9781ms ::1 GET /spark
+[INFO] 2019/06/20 17:36 200 22.9852ms ::1 GET /spark
+[INFO] 2019/06/20 17:36 200 9.9968ms ::1 GET /spark
+[INFO] 2019/06/20 17:37 200 76.9572ms ::1 GET /spark
+[INFO] 2019/06/20 17:37 200 3.9949ms ::1 GET /spark
+[INFO] 2019/06/20 17:37 200 37.9771ms ::1 GET /spark
+[INFO] 2019/06/20 17:38 200 7.9955ms ::1 GET /spark
+[INFO] 2019/06/20 17:38 200 36.9788ms ::1 GET /spark
+[INFO] 2019/06/20 17:38 200 7.0176ms ::1 GET /spark
+[INFO] 2019/06/20 17:39 200 76.9541ms ::1 GET /spark
+[INFO] 2019/06/20 17:39 200 3.9972ms ::1 GET /spark
+[INFO] 2019/06/20 17:39 200 60.9645ms ::1 GET /spark
+[INFO] 2019/06/20 17:39 200 6.9961ms ::1 GET /spark
+[INFO] 2019/06/20 17:40 200 17.9895ms ::1 GET /spark
+[INFO] 2019/06/20 17:40 200 7.9945ms ::1 GET /spark
+[INFO] 2019/06/20 17:40 200 6.9947ms ::1 GET /spark
+[INFO] 2019/06/20 17:40 200 23.9868ms ::1 GET /spark
+[INFO] 2019/06/20 17:41 200 74.9563ms ::1 GET /spark
+[INFO] 2019/06/20 17:41 200 4.998ms ::1 GET /spark
+[INFO] 2019/06/20 17:42 200 36.9778ms ::1 GET /spark
+[INFO] 2019/06/20 17:42 200 6.9956ms ::1 GET /spark
+[INFO] 2019/06/20 17:42 200 14.9911ms ::1 GET /spark
+[INFO] 2019/06/20 17:42 200 6.9965ms ::1 GET /spark
+[INFO] 2019/06/20 17:43 200 374.8814ms ::1 GET /spark
+[INFO] 2019/06/20 17:43 200 5.9963ms ::1 GET /spark
+[INFO] 2019/06/20 17:43 200 19.989ms ::1 GET /spark
+[INFO] 2019/06/20 17:43 200 5.9964ms ::1 GET /spark
+[INFO] 2019/06/20 17:44 200 78.955ms ::1 GET /spark
+[INFO] 2019/06/20 17:45 200 37.979ms ::1 GET /spark
+[INFO] 2019/06/20 17:45 200 7.9945ms ::1 GET /spark
+[INFO] 2019/06/20 17:45 200 57.9671ms ::1 GET /spark
+[INFO] 2019/06/20 17:45 200 9.9941ms ::1 GET /spark
+[INFO] 2019/06/20 17:46 200 19.9867ms ::1 GET /spark
+[INFO] 2019/06/20 17:46 200 4.9975ms ::1 GET /spark
+[INFO] 2019/06/20 17:46 200 10.9901ms ::1 GET /spark
+[INFO] 2019/06/20 17:46 200 5.994ms ::1 GET /spark
+[INFO] 2019/06/20 17:47 200 14.9911ms ::1 GET /spark
+[INFO] 2019/06/20 17:47 200 4.9966ms ::1 GET /spark
+[INFO] 2019/06/20 17:47 200 14.9934ms ::1 GET /spark
+[INFO] 2019/06/20 17:48 200 9.9927ms ::1 GET /spark
+[INFO] 2019/06/20 17:48 200 21.9868ms ::1 GET /spark
+[INFO] 2019/06/20 17:48 200 5.9968ms ::1 GET /spark
+[INFO] 2019/06/20 17:49 200 35.9799ms ::1 GET /spark
+[INFO] 2019/06/20 17:49 200 5.9968ms ::1 GET /spark
+[INFO] 2019/06/20 17:49 200 56.9659ms ::1 GET /spark
+[INFO] 2019/06/20 17:49 200 4.9975ms ::1 GET /spark
+[INFO] 2019/06/20 17:50 200 20.9879ms ::1 GET /spark
+[INFO] 2019/06/20 17:50 200 6.9975ms ::1 GET /spark
+[INFO] 2019/06/20 17:50 200 19.9881ms ::1 GET /spark
+[INFO] 2019/06/20 17:50 200 10.9925ms ::1 GET /spark
+[INFO] 2019/06/20 17:51 200 19.989ms ::1 GET /spark
+[INFO] 2019/06/20 17:51 200 4.9971ms ::1 GET /spark
+[INFO] 2019/06/20 17:51 200 49.9721ms ::1 GET /spark
+[INFO] 2019/06/20 17:52 200 7.995ms ::1 GET /spark
+[INFO] 2019/06/20 17:52 200 11.9946ms ::1 GET /spark
+[INFO] 2019/06/20 17:52 200 7.9969ms ::1 GET /spark
+[INFO] 2019/06/20 17:53 200 19.9857ms ::1 GET /spark
+[INFO] 2019/06/20 17:53 200 2.997ms ::1 GET /spark
+[INFO] 2019/06/20 17:53 200 19.9895ms ::1 GET /spark
+[INFO] 2019/06/20 17:53 200 67.9616ms ::1 GET /spark
+[INFO] 2019/06/20 17:54 200 11.9899ms ::1 GET /spark
+[INFO] 2019/06/20 17:54 200 15.9909ms ::1 GET /spark
+[INFO] 2019/06/20 17:54 200 13.9903ms ::1 GET /spark
+[INFO] 2019/06/20 17:55 200 6.9993ms ::1 GET /spark
+[INFO] 2019/06/20 17:55 200 77.9706ms ::1 GET /spark
+[INFO] 2019/06/20 17:55 200 3.9949ms ::1 GET /spark
+[INFO] 2019/06/20 17:56 200 16.9888ms ::1 GET /spark
+[INFO] 2019/06/20 17:56 200 102.938ms ::1 GET /spark
+[INFO] 2019/06/20 17:57 200 12.9929ms ::1 GET /spark
+[INFO] 2019/06/20 17:57 200 14.9915ms ::1 GET /spark
+[INFO] 2019/06/20 17:58 200 192.8887ms ::1 GET /spark
+[INFO] 2019/06/20 17:58 200 11.9936ms ::1 GET /spark
+[INFO] 2019/06/20 17:59 200 12.9929ms ::1 GET /spark
+[INFO] 2019/06/20 18:01 200 629.6392ms ::1 GET /spark
+[INFO] 2019/06/20 18:01 200 24.9842ms ::1 GET /spark
+[DBUG] 2019/06/20 18:05 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/20 18:05 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/20 18:05 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 18:05 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/20 18:05 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 18:05 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/20 18:05 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/20 18:05 Application: 1 registered view engine(s)
+[DBUG] 2019/06/20 18:05 Application: running using 1 host(s)
+[DBUG] 2019/06/20 18:05 Host: addr is :8080
+[DBUG] 2019/06/20 18:05 Host: virtual host is localhost:8080
+[DBUG] 2019/06/20 18:05 Host: register startup notifier
+[DBUG] 2019/06/20 18:05 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[ERRO] 2019/06/20 18:09 html/template: "index.html" is undefined
+[INFO] 2019/06/20 18:09 500 999.3µs ::1 GET /
+[ERRO] 2019/06/20 18:09 html/template: "index.html" is undefined
+[INFO] 2019/06/20 18:09 500   0s ::1 GET /
+[DBUG] 2019/06/20 18:12 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/20 18:12 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/20 18:12 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 18:12 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/20 18:12 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/20 18:12 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/20 18:12 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/20 18:12 Application: 1 registered view engine(s)
+[DBUG] 2019/06/20 18:12 Application: running using 1 host(s)
+[DBUG] 2019/06/20 18:12 Host: addr is :8080
+[DBUG] 2019/06/20 18:12 Host: virtual host is localhost:8080
+[DBUG] 2019/06/20 18:12 Host: register startup notifier
+[DBUG] 2019/06/20 18:12 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[DBUG] 2019/06/21 10:31 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/21 10:31 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/21 10:31 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/21 10:31 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/21 10:31 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/21 10:31 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/21 10:31 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/21 10:31 Application: 1 registered view engine(s)
+[DBUG] 2019/06/21 10:31 Application: running using 1 host(s)
+[DBUG] 2019/06/21 10:31 Host: addr is :8080
+[DBUG] 2019/06/21 10:31 Host: virtual host is localhost:8080
+[DBUG] 2019/06/21 10:31 Host: register startup notifier
+[DBUG] 2019/06/21 10:31 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/21 10:31 200   0s ::1 GET /
+[INFO] 2019/06/21 10:31 200 999.8µs ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js
+[INFO] 2019/06/21 10:31 200 2.001ms ::1 GET /js/app.85dd8e12091a53509c71.js
+[INFO] 2019/06/21 10:31 200 11.9931ms ::1 GET /css/app.febbb8dd0714432f38d277e4ea0c05a7.css
+[INFO] 2019/06/21 10:31 200 82.9531ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/21 10:31 200 999.3µs ::1 GET /img/avatar-195x195.png
+[INFO] 2019/06/21 10:31 200 999.3µs ::1 GET /img/bs-pattern.png
+[INFO] 2019/06/21 10:31 200 3.9981ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/21 10:31 200 1.2543337s ::1 GET /spark
+[INFO] 2019/06/21 10:31 200 130.0169ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 10:32 200 4.997ms ::1 GET /js/app.85dd8e12091a53509c71.js.map
+[INFO] 2019/06/21 10:32 200 999.3µs ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js.map
+[INFO] 2019/06/21 10:32 200 11.9936ms ::1 GET /css/app.febbb8dd0714432f38d277e4ea0c05a7.css.map
+[INFO] 2019/06/21 10:32 200 153.9117ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/21 10:32 200 9.9945ms ::1 GET /spark
+[INFO] 2019/06/21 10:32 200 75.9542ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 10:33 200 11.8691ms ::1 GET /spark
+[INFO] 2019/06/21 10:33 200 31.9822ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 10:33 200 15.6704ms ::1 GET /spark
+[INFO] 2019/06/21 10:33 200 34.9801ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 10:34 200 21.3536ms ::1 GET /spark
+[INFO] 2019/06/21 10:34 200 21.661ms ::1 GET /spark
+[INFO] 2019/06/21 10:35 200 66.7062ms ::1 GET /spark
+[INFO] 2019/06/21 10:36 200 11.159ms ::1 GET /spark
+[INFO] 2019/06/21 10:36 304 998.8µs ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js.map
+[INFO] 2019/06/21 10:36 304 1.0003ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/21 10:36 304 1.0016ms ::1 GET /js/app.85dd8e12091a53509c71.js.map
+[INFO] 2019/06/21 10:36 304 998.8µs ::1 GET /css/app.febbb8dd0714432f38d277e4ea0c05a7.css.map
+[INFO] 2019/06/21 10:36 200 79.7145ms ::1 GET /spark
+[INFO] 2019/06/21 10:37 200 8.8515ms ::1 GET /spark
+[INFO] 2019/06/21 10:37 200 43.8765ms ::1 GET /spark
+[INFO] 2019/06/21 10:38 200 7.765ms ::1 GET /spark
+[INFO] 2019/06/21 10:38 200 24.4794ms ::1 GET /spark
+[INFO] 2019/06/21 10:39 200 23.0075ms ::1 GET /spark
+[INFO] 2019/06/21 10:40 200 34.898ms ::1 GET /spark
+[DBUG] 2019/06/21 10:41 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/21 10:41 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/21 10:41 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/21 10:41 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/21 10:41 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/21 10:41 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/21 10:41 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/21 10:41 Application: 1 registered view engine(s)
+[DBUG] 2019/06/21 10:41 Application: running using 1 host(s)
+[DBUG] 2019/06/21 10:41 Host: addr is :8080
+[DBUG] 2019/06/21 10:41 Host: virtual host is localhost:8080
+[DBUG] 2019/06/21 10:41 Host: register startup notifier
+[DBUG] 2019/06/21 10:41 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/21 10:41 200 6.9952ms ::1 GET /
+[INFO] 2019/06/21 10:41 200 1.9995ms ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js
+[INFO] 2019/06/21 10:41 200 2.9989ms ::1 GET /js/app.d9faeb239b7482e3922c.js
+[INFO] 2019/06/21 10:41 200 26.9847ms ::1 GET /css/app.cd682781e44cfeaf41e9376c88d9d101.css
+[INFO] 2019/06/21 10:41 200 39.9762ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/21 10:41 200 998.8µs ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js.map
+[INFO] 2019/06/21 10:41 200 20.9897ms ::1 GET /css/app.cd682781e44cfeaf41e9376c88d9d101.css.map
+[INFO] 2019/06/21 10:41 200 2.0001ms ::1 GET /img/avatar-195x195.png
+[INFO] 2019/06/21 10:41 200 997.9µs ::1 GET /img/bs-pattern.png
+[INFO] 2019/06/21 10:41 200 3.9982ms ::1 GET /js/app.d9faeb239b7482e3922c.js.map
+[INFO] 2019/06/21 10:41 200 186.8951ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/21 10:41 200 1.9991ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/21 10:41 200 611.6502ms ::1 GET /spark
+[INFO] 2019/06/21 10:41 200 65.9621ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 10:42 200 53.7147ms ::1 GET /spark
+[INFO] 2019/06/21 10:42 200 48.9705ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 10:43 200 51.8186ms ::1 GET /spark
+[INFO] 2019/06/21 10:44 200 46.9849ms ::1 GET /spark
+[INFO] 2019/06/21 10:46 200 114.7981ms ::1 GET /spark
+[INFO] 2019/06/21 10:47 200 24.4444ms ::1 GET /spark
+[INFO] 2019/06/21 10:48 200 33.3319ms ::1 GET /spark
+[INFO] 2019/06/21 10:49 200 20.8913ms ::1 GET /spark
+[INFO] 2019/06/21 10:50 200 48.4069ms ::1 GET /spark
+[INFO] 2019/06/21 10:51 200 56.8908ms ::1 GET /spark
+[INFO] 2019/06/21 10:52 200 21.6886ms ::1 GET /spark
+[INFO] 2019/06/21 10:53 200 50.6458ms ::1 GET /spark
+[INFO] 2019/06/21 10:54 200 18.4639ms ::1 GET /spark
+[INFO] 2019/06/21 10:55 200 56.5521ms ::1 GET /spark
+[INFO] 2019/06/21 10:56 200 23.5659ms ::1 GET /spark
+[INFO] 2019/06/21 10:57 200 24.3361ms ::1 GET /spark
+[DBUG] 2019/06/21 10:59 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/21 10:59 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/21 10:59 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/21 10:59 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/21 10:59 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/21 10:59 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/21 10:59 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/21 10:59 Application: 1 registered view engine(s)
+[DBUG] 2019/06/21 10:59 Application: running using 1 host(s)
+[DBUG] 2019/06/21 10:59 Host: addr is :8080
+[DBUG] 2019/06/21 10:59 Host: virtual host is localhost:8080
+[DBUG] 2019/06/21 10:59 Host: register startup notifier
+[DBUG] 2019/06/21 10:59 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/21 10:59 200 2.9979ms ::1 GET /
+[INFO] 2019/06/21 10:59 304 1.0031ms ::1 GET /css/app.cd682781e44cfeaf41e9376c88d9d101.css
+[INFO] 2019/06/21 10:59 304 991.4µs ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js
+[INFO] 2019/06/21 10:59 304   0s ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/21 10:59 304   0s 127.0.0.1 GET /js/app.d9faeb239b7482e3922c.js
+[INFO] 2019/06/21 10:59 304   0s ::1 GET /img/avatar-195x195.png
+[INFO] 2019/06/21 10:59 304 999.3µs ::1 GET /img/bs-pattern.png
+[INFO] 2019/06/21 10:59 200 365.6604ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 10:59 200 36.9773ms 127.0.0.1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:00 200 27.4251ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:00 200 36.9778ms 127.0.0.1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:01 200 16.0828ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:02 200 25.0901ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:03 200 44.2819ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:04 200 31.2245ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:05 200 27.0985ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:06 200 44.3336ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:08 200 59.9657ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:09 200 14.9934ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:09 200 49.9703ms 127.0.0.1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:10 200 138.9183ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:11 200 19.9867ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:12 200 16.9943ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:13 200 41.9725ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:14 200 39.9771ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:15 200 49.9707ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:16 200 16.9892ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:17 200 40.9704ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:18 200 43.9744ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:19 200 88.9477ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:21 200 100.0427ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:22 200 37.9799ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:23 200 5.9992ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:24 200 4.9947ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:25 200 46.9709ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:26 200 48.6551ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:27 200 39.9682ms 127.0.0.1 GET /spark
+[INFO] 2019/06/21 11:28 200 28.7874ms 127.0.0.1 GET /spark
+[DBUG] 2019/06/21 11:31 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/21 11:31 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/21 11:31 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/21 11:31 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/21 11:31 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/21 11:31 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/21 11:31 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/21 11:31 Application: 1 registered view engine(s)
+[DBUG] 2019/06/21 11:31 Application: running using 1 host(s)
+[DBUG] 2019/06/21 11:31 Host: addr is :8080
+[DBUG] 2019/06/21 11:31 Host: virtual host is localhost:8080
+[DBUG] 2019/06/21 11:31 Host: register startup notifier
+[DBUG] 2019/06/21 11:31 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/21 11:31 200 627.5µs ::1 GET /
+[INFO] 2019/06/21 11:31 200 24.9856ms ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js
+[INFO] 2019/06/21 11:31 200 39.9762ms ::1 GET /css/app.d809d9c3e95eaa4f70ac3ea44c32eae0.css
+[INFO] 2019/06/21 11:31 200 38.9765ms ::1 GET /js/app.64d296bdf96375e68980.js
+[INFO] 2019/06/21 11:31 200 61.9634ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/21 11:31 200 17.9885ms ::1 GET /img/avatar-195x195.png
+[INFO] 2019/06/21 11:31 200 21.9877ms ::1 GET /img/bs-pattern.png
+[INFO] 2019/06/21 11:31 200 1.9968ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/21 11:31 200 392.4138ms ::1 GET /spark
+[INFO] 2019/06/21 11:31 200 32.9796ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:31 200   0s ::1 GET /
+[INFO] 2019/06/21 11:31 200 3.0012ms ::1 GET /spark
+[INFO] 2019/06/21 11:31 200 1.0007ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/21 11:31 200 35.979ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:32 200 16.9916ms ::1 GET /spark
+[INFO] 2019/06/21 11:32 200 36.9778ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:33 200 52.9719ms ::1 GET /spark
+[INFO] 2019/06/21 11:33 200 30.9796ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:34 200 14.0062ms ::1 GET /spark
+[INFO] 2019/06/21 11:34 200 26.0329ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:35 200 18.9878ms ::1 GET /spark
+[INFO] 2019/06/21 11:36 200 18.9925ms ::1 GET /spark
+[INFO] 2019/06/21 11:37 200 35.5339ms ::1 GET /spark
+[INFO] 2019/06/21 11:38 200 36.9806ms ::1 GET /spark
+[INFO] 2019/06/21 11:40 200 15.9909ms ::1 GET /spark
+[INFO] 2019/06/21 11:41 200 32.3251ms ::1 GET /spark
+[INFO] 2019/06/21 11:41 200 766µs ::1 GET /
+[INFO] 2019/06/21 11:41 304 998.4µs ::1 GET /css/app.d809d9c3e95eaa4f70ac3ea44c32eae0.css
+[INFO] 2019/06/21 11:41 304 1.0003ms ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js
+[INFO] 2019/06/21 11:41 304 999.7µs ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/21 11:41 304 998.3µs ::1 GET /js/app.64d296bdf96375e68980.js
+[INFO] 2019/06/21 11:41 304 999.7µs ::1 GET /img/avatar-195x195.png
+[INFO] 2019/06/21 11:41 200 3.9977ms ::1 GET /spark
+[INFO] 2019/06/21 11:41 304 1.0007ms ::1 GET /img/bs-pattern.png
+[INFO] 2019/06/21 11:41 200 38.9769ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:41 200 1.9995ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/21 11:41 200 83.9501ms ::1 GET /js/app.64d296bdf96375e68980.js.map
+[INFO] 2019/06/21 11:41 200 75.9542ms ::1 GET /css/app.d809d9c3e95eaa4f70ac3ea44c32eae0.css.map
+[INFO] 2019/06/21 11:41 200 161.9072ms ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js.map
+[INFO] 2019/06/21 11:41 200 250.8552ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/21 11:42 200 17.9932ms ::1 GET /spark
+[INFO] 2019/06/21 11:42 200 33.9771ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:43 200   0s ::1 GET /
+[INFO] 2019/06/21 11:43 200 33.9808ms ::1 GET /spark
+[INFO] 2019/06/21 11:43 200 147.9159ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:43 200 1.9991ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/21 11:43 200   0s ::1 GET /
+[INFO] 2019/06/21 11:43 200 38.9769ms ::1 GET /spark
+[INFO] 2019/06/21 11:43 200 113.9341ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:43 200 12.9929ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/21 11:44 200   0s ::1 GET /
+[INFO] 2019/06/21 11:44 200 14.9906ms ::1 GET /spark
+[INFO] 2019/06/21 11:44 200 34.9773ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:44 200 1.9995ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/21 11:45 304   0s ::1 GET /css/app.d809d9c3e95eaa4f70ac3ea44c32eae0.css
+[INFO] 2019/06/21 11:45 200 14.993ms ::1 GET /spark
+[INFO] 2019/06/21 11:45 304 999.8µs ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js.map
+[INFO] 2019/06/21 11:45 304 999.3µs ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/21 11:45 304 999.8µs ::1 GET /js/app.64d296bdf96375e68980.js.map
+[INFO] 2019/06/21 11:45 304 999.8µs ::1 GET /css/app.d809d9c3e95eaa4f70ac3ea44c32eae0.css.map
+[INFO] 2019/06/21 11:45 200 174.9006ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:46 200 18.9846ms ::1 GET /spark
+[INFO] 2019/06/21 11:48 200 104.8806ms ::1 GET /spark
+[INFO] 2019/06/21 11:49 200 46.1885ms ::1 GET /spark
+[INFO] 2019/06/21 11:50 200 30.9212ms ::1 GET /spark
+[INFO] 2019/06/21 11:50 200 25.6121ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:51 200 55.7861ms ::1 GET /spark
+[INFO] 2019/06/21 11:52 200 22.9814ms ::1 GET /spark
+[INFO] 2019/06/21 11:52 200   0s ::1 GET /
+[INFO] 2019/06/21 11:52 304   0s ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/21 11:52 304 998.4µs ::1 GET /js/app.64d296bdf96375e68980.js
+[INFO] 2019/06/21 11:52 304  2ms ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js
+[INFO] 2019/06/21 11:52 304 998.4µs ::1 GET /css/app.d809d9c3e95eaa4f70ac3ea44c32eae0.css
+[INFO] 2019/06/21 11:52 304   0s ::1 GET /img/avatar-195x195.png
+[INFO] 2019/06/21 11:52 200 7.9936ms ::1 GET /spark
+[INFO] 2019/06/21 11:52 304 998.4µs ::1 GET /img/bs-pattern.png
+[INFO] 2019/06/21 11:52 200 47.9647ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:52 200 997.4µs ::1 GET /img/favicon.ico
+[INFO] 2019/06/21 11:54 200 32.9787ms ::1 GET /spark
+[INFO] 2019/06/21 11:54 200 28.9795ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:55 200 29.4975ms ::1 GET /spark
+[INFO] 2019/06/21 11:55 200 11.982ms ::1 GET /
+[INFO] 2019/06/21 11:55 200 4.9979ms ::1 GET /spark
+[INFO] 2019/06/21 11:55 200 39.98ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:55 200 6.9952ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/21 11:56 200 21.9876ms ::1 GET /spark
+[INFO] 2019/06/21 11:56 200 25.9872ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:57 200 31.0169ms ::1 GET /spark
+[INFO] 2019/06/21 11:57 200 27.7862ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 11:58 200 14.853ms ::1 GET /spark
+[INFO] 2019/06/21 11:59 200 49.9717ms ::1 GET /spark
+[INFO] 2019/06/21 12:00 200 14.6369ms ::1 GET /spark
+[INFO] 2019/06/21 12:01 200 18.1681ms ::1 GET /spark
+[INFO] 2019/06/21 12:02 200 35.1994ms ::1 GET /spark
+[INFO] 2019/06/21 12:03 200 26.4286ms ::1 GET /spark
+[INFO] 2019/06/21 12:05 200 19.9877ms ::1 GET /spark
+[INFO] 2019/06/21 12:06 200 55.6079ms ::1 GET /spark
+[INFO] 2019/06/21 12:07 200 22.8558ms ::1 GET /spark
+[INFO] 2019/06/21 12:08 200 17.3927ms ::1 GET /spark
+[DBUG] 2019/06/21 12:11 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/21 12:11 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/21 12:11 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/21 12:11 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/21 12:11 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/21 12:11 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/21 12:11 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/21 12:11 Application: 1 registered view engine(s)
+[DBUG] 2019/06/21 12:11 Application: running using 1 host(s)
+[DBUG] 2019/06/21 12:11 Host: addr is :8080
+[DBUG] 2019/06/21 12:11 Host: virtual host is localhost:8080
+[DBUG] 2019/06/21 12:11 Host: register startup notifier
+[DBUG] 2019/06/21 12:11 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/21 12:11 200 1.0161ms ::1 GET /
+[INFO] 2019/06/21 12:11 200 999.3µs ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js
+[INFO] 2019/06/21 12:11 200 11.9922ms ::1 GET /css/app.8bee417cad69a29d394e9e2200129a28.css
+[INFO] 2019/06/21 12:11 200 3.9981ms ::1 GET /js/app.cb2b94dea111e01c825f.js
+[INFO] 2019/06/21 12:11 200 28.9847ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/21 12:11 200 1.9991ms ::1 GET /img/avatar-195x195.png
+[INFO] 2019/06/21 12:11 200 1.0003ms ::1 GET /img/bs-pattern.png
+[INFO] 2019/06/21 12:11 200   0s ::1 GET /img/favicon.ico
+[INFO] 2019/06/21 12:11 200 409.8051ms ::1 GET /spark
+[INFO] 2019/06/21 12:11 200 42.9751ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 12:11 200   0s ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js.map
+[INFO] 2019/06/21 12:11 200 1.9995ms ::1 GET /js/app.cb2b94dea111e01c825f.js.map
+[INFO] 2019/06/21 12:11 200 15.9918ms ::1 GET /css/app.8bee417cad69a29d394e9e2200129a28.css.map
+[INFO] 2019/06/21 12:11 200 123.9286ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/21 12:12 200 39.6613ms ::1 GET /spark
+[INFO] 2019/06/21 12:12 200 39.9771ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 12:13 200 41.9604ms ::1 GET /spark
+[INFO] 2019/06/21 12:14 200 25.9807ms ::1 GET /spark
+[INFO] 2019/06/21 12:15 200 39.8115ms ::1 GET /spark
+[INFO] 2019/06/21 12:15 200 32.9353ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 12:16 200 46.2968ms ::1 GET /spark
+[INFO] 2019/06/21 12:16 200 24.1201ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 12:17 200 8.9924ms ::1 GET /spark
+[INFO] 2019/06/21 12:19 200 47.8256ms ::1 GET /spark
+[DBUG] 2019/06/21 12:20 MVC dependencies of 'controllers.SparkController':
+[1] Static binding: '*services.sparkServiceImpl' for field 'SparkService services.SparkService'
+
+[DBUG] 2019/06/21 12:20 MVC dependencies of method 'controllers.SparkController.GetImgBy':
+[1] Dynamic binding: 'string' for input position: 1 and type: 'string'
+
+[DBUG] 2019/06/21 12:20 HEAD: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/21 12:20 GET: /spark/img/{param1:string} -> controllers.SparkController.GetImgBy() and 2 more
+[DBUG] 2019/06/21 12:20 GET: /static/*file -> github.com/kataras/iris/core/router.StripPrefix.func1() and 2 more
+[DBUG] 2019/06/21 12:20 GET: / -> controllers.IndexController.Get() and 2 more
+[DBUG] 2019/06/21 12:20 GET: /spark -> controllers.SparkController.Get() and 2 more
+[DBUG] 2019/06/21 12:20 Application: 1 registered view engine(s)
+[DBUG] 2019/06/21 12:20 Application: running using 1 host(s)
+[DBUG] 2019/06/21 12:20 Host: addr is :8080
+[DBUG] 2019/06/21 12:20 Host: virtual host is localhost:8080
+[DBUG] 2019/06/21 12:20 Host: register startup notifier
+[DBUG] 2019/06/21 12:20 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+Now listening on: http://localhost:8080
+Application started. Press CTRL+C to shut down.
+[INFO] 2019/06/21 12:21 200 1.9986ms ::1 GET /
+[INFO] 2019/06/21 12:21 200 3.9982ms ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js
+[INFO] 2019/06/21 12:21 200 8.9947ms ::1 GET /css/app.6ebe6177fe88d14e0157226e28469d72.css
+[INFO] 2019/06/21 12:21 200 1.0007ms ::1 GET /js/app.dfd957e6eb2b8af4fe8d.js
+[INFO] 2019/06/21 12:21 200 31.9817ms ::1 GET /js/vendor.fb76819bcef471284350.js
+[INFO] 2019/06/21 12:21 200 2.0032ms ::1 GET /js/manifest.2ae2e69a05c33dfc65f8.js.map
+[INFO] 2019/06/21 12:21 200 27.984ms ::1 GET /css/app.6ebe6177fe88d14e0157226e28469d72.css.map
+[INFO] 2019/06/21 12:21 200 998.9µs ::1 GET /img/avatar-195x195.png
+[INFO] 2019/06/21 12:21 200 2.9984ms ::1 GET /img/bs-pattern.png
+[INFO] 2019/06/21 12:21 200 13.9917ms ::1 GET /js/app.dfd957e6eb2b8af4fe8d.js.map
+[INFO] 2019/06/21 12:21 200 238.864ms ::1 GET /js/vendor.fb76819bcef471284350.js.map
+[INFO] 2019/06/21 12:21 200 3.9987ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/21 12:21 200 692.6034ms ::1 GET /spark
+[INFO] 2019/06/21 12:21 200 42.9751ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 12:21 200   0s ::1 GET /
+[INFO] 2019/06/21 12:21 200 8.9943ms ::1 GET /spark
+[INFO] 2019/06/21 12:21 200 47.9702ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 12:21 200 1.0002ms ::1 GET /img/favicon.ico
+[INFO] 2019/06/21 12:22 200 20.3805ms ::1 GET /spark
+[INFO] 2019/06/21 12:22 200 38.649ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 12:23 200 48.551ms ::1 GET /spark
+[INFO] 2019/06/21 12:24 200 28.8065ms ::1 GET /spark
+[INFO] 2019/06/21 12:25 200 26.9842ms ::1 GET /spark
+[INFO] 2019/06/21 12:26 200 43.3469ms ::1 GET /spark
+[INFO] 2019/06/21 12:27 200 44.2118ms ::1 GET /spark
+[INFO] 2019/06/21 12:28 200 24.9305ms ::1 GET /spark
+[INFO] 2019/06/21 12:29 200 57.1301ms ::1 GET /spark
+[INFO] 2019/06/21 12:30 200 14.9901ms ::1 GET /spark
+[INFO] 2019/06/21 12:32 200 86.782ms ::1 GET /spark
+[INFO] 2019/06/21 12:33 200 309.6252ms ::1 GET /spark
+[INFO] 2019/06/21 12:34 200 307.3696ms ::1 GET /spark
+[INFO] 2019/06/21 12:35 200 500.3753ms ::1 GET /spark
+[INFO] 2019/06/21 12:36 200 180.0768ms ::1 GET /spark
+[INFO] 2019/06/21 12:37 200 95.3559ms ::1 GET /spark
+[INFO] 2019/06/21 12:38 200 76.1847ms ::1 GET /spark
+[INFO] 2019/06/21 12:39 200 81.3105ms ::1 GET /spark
+[INFO] 2019/06/21 12:40 200 298.3128ms ::1 GET /spark
+[INFO] 2019/06/21 12:41 200 46.7433ms ::1 GET /spark
+[INFO] 2019/06/21 12:42 200 72.1221ms ::1 GET /spark
+[INFO] 2019/06/21 12:43 200 38.0173ms ::1 GET /spark
+[INFO] 2019/06/21 12:45 200 64.6068ms ::1 GET /spark
+[INFO] 2019/06/21 12:46 200 81.2517ms ::1 GET /spark
+[INFO] 2019/06/21 12:47 200 587.0985ms ::1 GET /spark
+[INFO] 2019/06/21 12:48 200 59.2571ms ::1 GET /spark
+[INFO] 2019/06/21 12:49 200 456.7187ms ::1 GET /spark
+[INFO] 2019/06/21 12:50 200 599.2503ms ::1 GET /spark
+[INFO] 2019/06/21 12:51 200 409.3307ms ::1 GET /spark
+[INFO] 2019/06/21 12:52 200 320.5808ms ::1 GET /spark
+[INFO] 2019/06/21 12:53 200 484.0374ms ::1 GET /spark
+[INFO] 2019/06/21 12:54 200 269.3794ms ::1 GET /spark
+[INFO] 2019/06/21 12:55 200 142.0231ms ::1 GET /spark
+[INFO] 2019/06/21 12:56 200 203.9912ms ::1 GET /spark
+[INFO] 2019/06/21 12:58 200 40.8794ms ::1 GET /spark
+[INFO] 2019/06/21 12:59 200 124.0079ms ::1 GET /spark
+[INFO] 2019/06/21 13:00 200 172.4536ms ::1 GET /spark
+[INFO] 2019/06/21 13:01 200 253.4958ms ::1 GET /spark
+[INFO] 2019/06/21 13:02 200 66.4365ms ::1 GET /spark
+[INFO] 2019/06/21 13:03 200 64.4682ms ::1 GET /spark
+[INFO] 2019/06/21 13:04 200 136.574ms ::1 GET /spark
+[INFO] 2019/06/21 13:05 200 24.2685ms ::1 GET /spark
+[INFO] 2019/06/21 13:06 200 67.1246ms ::1 GET /spark
+[INFO] 2019/06/21 13:07 200 29.6845ms ::1 GET /spark
+[INFO] 2019/06/21 13:08 200 21.9564ms ::1 GET /spark
+[INFO] 2019/06/21 13:09 200 38.7879ms ::1 GET /spark
+[INFO] 2019/06/21 13:11 200 20.0558ms ::1 GET /spark
+[INFO] 2019/06/21 13:12 200 48.4311ms ::1 GET /spark
+[INFO] 2019/06/21 13:13 200 36.9769ms ::1 GET /spark
+[INFO] 2019/06/21 13:14 200 33.9795ms ::1 GET /spark
+[INFO] 2019/06/21 13:14 200 58.9636ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 13:15 200 41.8204ms ::1 GET /spark
+[INFO] 2019/06/21 13:15 200 43.5093ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 13:16 200 41.1743ms ::1 GET /spark
+[INFO] 2019/06/21 13:17 200 36.9773ms ::1 GET /spark
+[INFO] 2019/06/21 13:18 200 154.8756ms ::1 GET /spark
+[INFO] 2019/06/21 13:19 200 63.4726ms ::1 GET /spark
+[INFO] 2019/06/21 13:20 200 20.4089ms ::1 GET /spark
+[INFO] 2019/06/21 13:21 200 36.9787ms ::1 GET /spark
+[INFO] 2019/06/21 13:21 200 25.9658ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 13:22 200 26.9842ms ::1 GET /spark
+[INFO] 2019/06/21 13:24 200 60.9654ms ::1 GET /spark
+[INFO] 2019/06/21 13:25 200 32.3857ms ::1 GET /spark
+[INFO] 2019/06/21 13:26 200 25.9794ms ::1 GET /spark
+[INFO] 2019/06/21 13:27 200 44.8692ms ::1 GET /spark
+[INFO] 2019/06/21 13:28 200 12.54ms ::1 GET /spark
+[INFO] 2019/06/21 13:29 200 30.4926ms ::1 GET /spark
+[INFO] 2019/06/21 13:30 200 73.7793ms ::1 GET /spark
+[INFO] 2019/06/21 13:31 200 3.4127ms ::1 GET /spark
+[INFO] 2019/06/21 13:32 200 33.2591ms ::1 GET /spark
+[INFO] 2019/06/21 13:33 200 18.602ms ::1 GET /spark
+[INFO] 2019/06/21 13:34 200 42.9662ms ::1 GET /spark
+[INFO] 2019/06/21 13:35 200 36.85ms ::1 GET /spark
+[INFO] 2019/06/21 13:37 200 44.6481ms ::1 GET /spark
+[INFO] 2019/06/21 13:38 200 25.984ms ::1 GET /spark
+[INFO] 2019/06/21 13:39 200 61.2202ms ::1 GET /spark
+[INFO] 2019/06/21 13:40 200 78.9736ms ::1 GET /spark
+[INFO] 2019/06/21 13:41 200 45.9725ms ::1 GET /spark
+[INFO] 2019/06/21 13:42 200 100.0081ms ::1 GET /spark
+[INFO] 2019/06/21 13:43 200 29.9835ms ::1 GET /spark
+[INFO] 2019/06/21 13:44 200 39.9655ms ::1 GET /spark
+[INFO] 2019/06/21 13:45 200 50.9715ms ::1 GET /spark
+[INFO] 2019/06/21 13:46 200 36.5649ms ::1 GET /spark
+[INFO] 2019/06/21 13:46 200 36.967ms ::1 GET /spark/img/c9c09ef539dac8d52531a77d6100705e
+[INFO] 2019/06/21 13:47 200 45.9739ms ::1 GET /spark
+[INFO] 2019/06/21 13:48 200 46.8044ms ::1 GET /spark
+[INFO] 2019/06/21 13:50 200 126.5049ms ::1 GET /spark
+[INFO] 2019/06/21 13:51 200 21.9877ms ::1 GET /spark
+[INFO] 2019/06/21 13:52 200 16.9706ms ::1 GET /spark
+[INFO] 2019/06/21 13:53 200 78.9513ms ::1 GET /spark
+[INFO] 2019/06/21 13:54 200 42.976ms ::1 GET /spark
+[INFO] 2019/06/21 13:55 200 22.9879ms ::1 GET /spark
+[INFO] 2019/06/21 13:56 200 12.2222ms ::1 GET /spark
+[INFO] 2019/06/21 13:57 200 30.3591ms ::1 GET /spark
+[INFO] 2019/06/21 13:58 200 65.9536ms ::1 GET /spark
+[INFO] 2019/06/21 13:59 200 42.5375ms ::1 GET /spark
+[INFO] 2019/06/21 14:00 200 20.1691ms ::1 GET /spark
+[INFO] 2019/06/21 14:01 200 43.6352ms ::1 GET /spark
+[INFO] 2019/06/21 14:03 200 49.0965ms ::1 GET /spark
+[INFO] 2019/06/21 14:04 200 55.9778ms ::1 GET /spark
+[INFO] 2019/06/21 14:05 200 126.343ms ::1 GET /spark
+[INFO] 2019/06/21 14:06 200 33.9784ms ::1 GET /spark
+[INFO] 2019/06/21 14:07 200 61.9298ms ::1 GET /spark
+[INFO] 2019/06/21 14:08 200 33.9108ms ::1 GET /spark
+[INFO] 2019/06/21 14:09 200 45.1543ms ::1 GET /spark
+[INFO] 2019/06/21 14:10 200 31.9808ms ::1 GET /spark
+[INFO] 2019/06/21 14:11 200 90.7349ms ::1 GET /spark
+[INFO] 2019/06/21 14:13 200 714.8355ms ::1 GET /spark
+[INFO] 2019/06/21 14:18 200 369.9348ms ::1 GET /spark
+[INFO] 2019/06/21 14:19 200 8.9947ms ::1 GET /spark
+[INFO] 2019/06/21 14:20 200 36.3317ms ::1 GET /spark
+[INFO] 2019/06/21 14:21 200 42.412ms ::1 GET /spark
+[INFO] 2019/06/21 14:22 200 12.3916ms ::1 GET /spark
+[INFO] 2019/06/21 14:23 200 59.3265ms ::1 GET /spark
+[INFO] 2019/06/21 14:24 200 27.1904ms ::1 GET /spark
+[INFO] 2019/06/21 14:25 200 49.9997ms ::1 GET /spark
+[INFO] 2019/06/21 14:26 200 31.3612ms ::1 GET /spark
+[INFO] 2019/06/21 14:27 200 31.1471ms ::1 GET /spark
+[INFO] 2019/06/21 14:29 200 45.4061ms ::1 GET /spark
+[INFO] 2019/06/21 14:30 200 128.9542ms ::1 GET /spark
+[INFO] 2019/06/21 14:31 200 62.5989ms ::1 GET /spark
+[INFO] 2019/06/21 14:32 200 36.9759ms ::1 GET /spark
+[INFO] 2019/06/21 14:33 200 24.1677ms ::1 GET /spark
+[INFO] 2019/06/21 14:34 200 39.9794ms ::1 GET /spark
+[INFO] 2019/06/21 14:35 200 21.9882ms ::1 GET /spark
+[INFO] 2019/06/21 14:36 200 21.984ms ::1 GET /spark
+[INFO] 2019/06/21 14:37 200 24.9851ms ::1 GET /spark
+[INFO] 2019/06/21 14:38 200 46.9686ms ::1 GET /spark
+[INFO] 2019/06/21 14:39 200 20.9874ms ::1 GET /spark
+[INFO] 2019/06/21 14:40 200 17.9881ms ::1 GET /spark
+[INFO] 2019/06/21 14:42 200 120.9317ms ::1 GET /spark
+[INFO] 2019/06/21 14:43 200 39.9491ms ::1 GET /spark
+[INFO] 2019/06/21 14:44 200 37.9752ms ::1 GET /spark
+[INFO] 2019/06/21 14:45 200 25.9807ms ::1 GET /spark
+[INFO] 2019/06/21 14:46 200 29.9798ms ::1 GET /spark
+[INFO] 2019/06/21 14:47 200 19.9909ms ::1 GET /spark
+[INFO] 2019/06/21 14:48 200 41.9581ms ::1 GET /spark
+[INFO] 2019/06/21 14:49 200 23.9546ms ::1 GET /spark
+[INFO] 2019/06/21 14:50 200 16.9902ms ::1 GET /spark
+[INFO] 2019/06/21 14:51 200 35.0315ms ::1 GET /spark
+[INFO] 2019/06/21 14:52 200 46.9737ms ::1 GET /spark
+[INFO] 2019/06/21 14:53 200 23.9858ms ::1 GET /spark
+[INFO] 2019/06/21 14:55 200 38.976ms ::1 GET /spark
+[INFO] 2019/06/21 14:56 200 17.9871ms ::1 GET /spark
+[INFO] 2019/06/21 14:57 200 129.0554ms ::1 GET /spark
+[INFO] 2019/06/21 14:58 200 38.0452ms ::1 GET /spark
+[INFO] 2019/06/21 14:59 200 91.9488ms ::1 GET /spark
+[INFO] 2019/06/21 15:00 200 54.9654ms ::1 GET /spark
+[INFO] 2019/06/21 15:01 200 13.9918ms ::1 GET /spark
+[INFO] 2019/06/21 15:02 200 31.9789ms ::1 GET /spark
+[INFO] 2019/06/21 15:03 200 27.984ms ::1 GET /spark
+[INFO] 2019/06/21 15:04 200 72.9582ms ::1 GET /spark
+[INFO] 2019/06/21 15:05 200 32.9848ms ::1 GET /spark
+[INFO] 2019/06/21 15:06 200 22.9888ms ::1 GET /spark
+[INFO] 2019/06/21 15:08 200 24.9534ms ::1 GET /spark
+[INFO] 2019/06/21 15:09 200 24.9856ms ::1 GET /spark
+[INFO] 2019/06/21 15:10 200 34.9801ms ::1 GET /spark
+[INFO] 2019/06/21 15:11 200 27.9845ms ::1 GET /spark
+[INFO] 2019/06/21 15:12 200 33.9692ms ::1 GET /spark
+[INFO] 2019/06/21 15:13 200 54.9654ms ::1 GET /spark
+[INFO] 2019/06/21 15:14 200 18.9883ms ::1 GET /spark
+[INFO] 2019/06/21 15:15 200 24.9861ms ::1 GET /spark
+[INFO] 2019/06/21 15:16 200 20.9884ms ::1 GET /spark
+[INFO] 2019/06/21 15:17 200 33.9794ms ::1 GET /spark
+[INFO] 2019/06/21 15:18 200 42.9728ms ::1 GET /spark
+[INFO] 2019/06/21 15:19 200 41.9753ms ::1 GET /spark
+[INFO] 2019/06/21 15:21 200 29.978ms ::1 GET /spark
+[INFO] 2019/06/21 15:22 200 30.9819ms ::1 GET /spark
+[INFO] 2019/06/21 15:23 200 32.9801ms ::1 GET /spark
+[INFO] 2019/06/21 15:24 200 55.9652ms ::1 GET /spark
+[INFO] 2019/06/21 15:25 200 36.948ms ::1 GET /spark
+[INFO] 2019/06/21 15:26 200 83.9548ms ::1 GET /spark
+[INFO] 2019/06/21 15:27 200 30.9778ms ::1 GET /spark
+[INFO] 2019/06/21 15:28 200 31.9775ms ::1 GET /spark
+[INFO] 2019/06/21 15:29 200 32.9791ms ::1 GET /spark
+[INFO] 2019/06/21 15:30 200 35.072ms ::1 GET /spark
+[INFO] 2019/06/21 15:31 200 41.9791ms ::1 GET /spark
+[INFO] 2019/06/21 15:32 200 5.9968ms ::1 GET /spark
+[INFO] 2019/06/21 15:34 200 30.9806ms ::1 GET /spark
+[INFO] 2019/06/21 15:35 200 38.9494ms ::1 GET /spark
+[INFO] 2019/06/21 15:36 200 77.9618ms ::1 GET /spark
+[INFO] 2019/06/21 15:37 200 46.9718ms ::1 GET /spark
+[INFO] 2019/06/21 15:38 200 30.981ms ::1 GET /spark
+[INFO] 2019/06/21 15:39 200 40.9788ms ::1 GET /spark
+[INFO] 2019/06/21 15:40 200 68.9609ms ::1 GET /spark
+[INFO] 2019/06/21 15:41 200 32.9675ms ::1 GET /spark
+[INFO] 2019/06/21 15:42 200 50.9598ms ::1 GET /spark
+[INFO] 2019/06/21 15:43 200 24.9814ms ::1 GET /spark
+[INFO] 2019/06/21 15:44 200 33.951ms ::1 GET /spark
+[INFO] 2019/06/21 15:45 200 44.9471ms ::1 GET /spark
+[INFO] 2019/06/21 15:47 200 22.9841ms ::1 GET /spark
+[INFO] 2019/06/21 15:48 200 62.9669ms ::1 GET /spark
+[INFO] 2019/06/21 15:49 200 37.9776ms ::1 GET /spark
+[INFO] 2019/06/21 15:50 200 36.9769ms ::1 GET /spark
+[INFO] 2019/06/21 15:51 200 14.9911ms ::1 GET /spark
+[INFO] 2019/06/21 15:52 200 36.9769ms ::1 GET /spark
+[INFO] 2019/06/21 15:53 200 176.8992ms ::1 GET /spark
+[INFO] 2019/06/21 15:54 200 31.9813ms ::1 GET /spark
+[INFO] 2019/06/21 15:55 200 32.9824ms ::1 GET /spark
+[INFO] 2019/06/21 15:56 200 47.9754ms ::1 GET /spark
+[INFO] 2019/06/21 15:57 200 42.9741ms ::1 GET /spark
+[INFO] 2019/06/21 15:58 200 70.9568ms ::1 GET /spark
+[INFO] 2019/06/21 16:00 200 18.9865ms ::1 GET /spark
+[INFO] 2019/06/21 16:01 200 24.9842ms ::1 GET /spark
+[INFO] 2019/06/21 16:02 200 28.9852ms ::1 GET /spark
