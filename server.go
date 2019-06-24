@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
+	"github.com/kataras/iris/sessions"
 	"github.com/silencily/sparktime/core"
 	"github.com/silencily/sparktime/services"
 	"github.com/silencily/sparktime/web/controllers"
@@ -28,9 +29,13 @@ func newApp() *iris.Application {
 	app.RegisterView(iris.HTML("./web/views", ".html"))
 	app.StaticWeb("/static", "./web/static")
 
-	mvc.New(app).Handle(new(controllers.IndexController))
+	sess := sessions.New(sessions.Config{Cookie: "iris_session_id"})
 
-	mvc.Configure(app.Party("/spark"), spark)
+	sparkApp := mvc.New(app)
+	sparkApp.Register(sess.Start)
+
+	sparkApp.Handle(new(controllers.IndexController))
+	sparkApp.Party("/spark").Configure(spark)
 
 	return app
 }
