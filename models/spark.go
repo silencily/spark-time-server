@@ -30,3 +30,9 @@ type Spark struct {
 	CreatedTime Time   `json:"created_time"`
 	ImgName     string `json:"img_name"`
 }
+
+//响应结果，code值为'1'时为成功；其他值为错误情况，message为错误信息
+type ResponseResult struct {
+	Code    int    `json:"code"`
+	Message string `json:"message"`
+}

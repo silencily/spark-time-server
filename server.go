@@ -11,6 +11,8 @@ import (
 	"os"
 )
 
+const maxSize = 7 << 19 // 600KB
+
 func newApp() *iris.Application {
 	app := iris.Default()
 
@@ -29,13 +31,15 @@ func newApp() *iris.Application {
 	app.RegisterView(iris.HTML("./web/views", ".html"))
 	app.StaticWeb("/static", "./web/static")
 
-	sess := sessions.New(sessions.Config{Cookie: "iris_session_id"})
+	session := sessions.New(sessions.Config{Cookie: "iris_session_id"})
 
 	sparkApp := mvc.New(app)
-	sparkApp.Register(sess.Start)
+	sparkApp.Register(session.Start)
 
 	sparkApp.Handle(new(controllers.IndexController))
 	sparkApp.Party("/spark").Configure(spark)
+
+	app.Configure(iris.WithPostMaxMemory(maxSize)) //设置上传大小
 
 	return app
 }

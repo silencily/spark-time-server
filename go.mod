@@ -1,5 +1,7 @@
 module github.com/silencily/sparktime
 
+go 1.12
+
 require (
 	github.com/go-kivik/couchdb v0.0.0-20190520192200-57eca2c0435d
 	github.com/go-kivik/kivik v0.0.0-20190509113000-22b54eda3db0

@@ -2,9 +2,14 @@ package repositories
 
 import (
 	"context"
+	"fmt"
+	"github.com/go-kivik/couchdb"
 	"github.com/go-kivik/kivik"
 	"github.com/silencily/sparktime/core"
 	"github.com/silencily/sparktime/models"
+	"io"
+	"strings"
+	"time"
 )
 
 const (
@@ -17,6 +22,7 @@ type SparkRepository interface {
 	Get(id string) *models.Spark
 	GetImg(id string) *kivik.Attachment
 	List(query map[string]interface{}) []models.Spark
+	Save(spark *models.Spark, imgReader io.Reader) (string, error)
 }
 
 func NewSparkRepository() SparkRepository {
@@ -66,4 +72,29 @@ func (rep *sparkCouchDBRepository) GetImg(id string) *kivik.Attachment {
 		return nil
 	}
 	return attachment
+}
+
+func (rep *sparkCouchDBRepository) Save(spark *models.Spark, imgReader io.Reader) (string, error) {
+	var stamp = fmt.Sprintf("%s", time.Time(spark.CreatedTime).Format("2006-01-02 15:04:05"))
+	sparkDoc := map[string]interface{}{
+		"content":      spark.Content,
+		"created_time": stamp,
+		"img_name":     spark.ImgName,
+	}
+	docId, rev, err := rep.template.CreateDoc(context.TODO(), sparkDoc)
+	if err != nil {
+		return "", err
+	}
+	var contentType string
+	if strings.Contains(spark.ImgName, ".png") {
+		contentType = "image/png"
+	} else {
+		contentType = "image/jpeg"
+	}
+	attachment, err := couchdb.NewAttachment(spark.ImgName, contentType, imgReader)
+	_, err = rep.template.PutAttachment(context.TODO(), docId, rev, attachment)
+	if err != nil {
+		return "", err
+	}
+	return docId, nil
 }

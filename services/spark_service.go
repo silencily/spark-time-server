@@ -3,12 +3,14 @@ package services
 import (
 	"github.com/silencily/sparktime/models"
 	"github.com/silencily/sparktime/repositories"
+	"io"
 	"io/ioutil"
 )
 
 type SparkService interface {
 	GetImg(id string) (img []byte, contentType string)
 	List() []models.Spark
+	Save(spark *models.Spark, imgReader io.Reader) error
 }
 
 func NewSparkService() SparkService {
@@ -41,4 +43,12 @@ func (s *sparkServiceImpl) GetImg(id string) ([]byte, string) {
 		return nil, ""
 	}
 	return result, attachment.ContentType
+}
+
+func (s *sparkServiceImpl) Save(spark *models.Spark, imgReader io.Reader) error {
+	_, err := s.sparkRepository.Save(spark, imgReader)
+	if err != nil {
+		return err
+	}
+	return nil
 }
