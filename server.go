@@ -5,6 +5,7 @@ import (
 	"github.com/kataras/iris/mvc"
 	"github.com/kataras/iris/sessions"
 	"github.com/silencily/sparktime/core"
+	"github.com/silencily/sparktime/core/task"
 	"github.com/silencily/sparktime/services"
 	"github.com/silencily/sparktime/web/controllers"
 	"gopkg.in/natefinch/lumberjack.v2"
@@ -19,6 +20,7 @@ func newApp() *iris.Application {
 	log := app.Logger()
 	log.SetLevel("debug")
 	log.SetOutput(os.Stdout)
+	log.SetTimeFormat("2006/01/02 15:04:05")
 	log.AddOutput(&lumberjack.Logger{
 		Filename:   "./log/spark-time.log",
 		MaxSize:    100, // megabytes
@@ -41,11 +43,24 @@ func newApp() *iris.Application {
 
 	app.Configure(iris.WithPostMaxMemory(maxSize)) //设置上传大小
 
+	app.ConfigureHost(func(host *iris.Supervisor) { // <- 重要
+		//您可以使用某些主机的方法控制流或延迟某些内容：
+		// host.RegisterOnError
+		// host.RegisterOnServe
+		host.RegisterOnShutdown(func() {
+			log.Info("Application shutdown on signal")
+			task.GetTaskScheduleManager().Stop()
+		})
+	})
+
 	return app
 }
 
 func main() {
 	app := newApp()
+
+	task.GetTaskScheduleManager().Start()
+
 	app.Run(iris.Addr(":8080"))
 }
 

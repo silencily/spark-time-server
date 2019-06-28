@@ -2,9 +2,11 @@ package repositories
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	"github.com/go-kivik/couchdb"
 	"github.com/go-kivik/kivik"
+	"github.com/kataras/golog"
 	"github.com/silencily/sparktime/core"
 	"github.com/silencily/sparktime/models"
 	"io"
@@ -13,9 +15,14 @@ import (
 )
 
 const (
-	SPARK_COUCHDB_VIEW string = "spark"
-	SPARK_COUCHDB_DDOC string = "spark"
+	SPARK_COUCHDB_VIEW_SPARK string = "spark"
+	SPARK_COUCHDB_DDOC_SPARK string = "spark"
+	SPARK_COUCHDB_VIEW_DYING string = "dying"
 )
+
+func getLogger() *golog.Logger {
+	return core.GetLogger("SparkRepository")
+}
 
 type SparkRepository interface {
 	//根据id获取spark
@@ -23,6 +30,7 @@ type SparkRepository interface {
 	GetImg(id string) *kivik.Attachment
 	List(query map[string]interface{}) []models.Spark
 	Save(spark *models.Spark, imgReader io.Reader) (string, error)
+	Clean(query map[string]interface{}) error
 }
 
 func NewSparkRepository() SparkRepository {
@@ -33,8 +41,39 @@ type sparkCouchDBRepository struct {
 	template *kivik.DB
 }
 
+func (rep *sparkCouchDBRepository) Clean(query map[string]interface{}) error {
+	errorCount := 0
+	rows, err := rep.template.Query(context.TODO(), SPARK_COUCHDB_DDOC_SPARK, SPARK_COUCHDB_VIEW_DYING, query)
+	if err != nil {
+		errorCount++
+		getLogger().Errorf("Query error:%s", err.Error())
+		return err
+	}
+	for hasNext := rows.Next(); hasNext; hasNext = rows.Next() {
+		docId := rows.ID()
+		var docRev string
+		err = rows.ScanValue(&docRev)
+		if err != nil {
+			errorCount++
+			getLogger().Errorf("ScanValue error-[docId:%s]", docId)
+			continue
+		}
+		_, err = rep.template.Delete(context.TODO(), docId, docRev)
+		if err != nil {
+			errorCount++
+			getLogger().Errorf("Delete error-[docId:%s,docRev:%s]", docId, docRev)
+			continue
+		}
+	}
+	if errorCount > 0 {
+		errMsg := fmt.Sprintf("Clean dying spark occurs %d errors ", errorCount)
+		return errors.New(errMsg)
+	}
+	return nil
+}
+
 func (rep *sparkCouchDBRepository) List(query map[string]interface{}) []models.Spark {
-	rows, err := rep.template.Query(context.TODO(), SPARK_COUCHDB_DDOC, SPARK_COUCHDB_VIEW, query)
+	rows, err := rep.template.Query(context.TODO(), SPARK_COUCHDB_DDOC_SPARK, SPARK_COUCHDB_VIEW_SPARK, query)
 	if err != nil {
 		return nil
 	}

@@ -8,6 +8,7 @@ require (
 	github.com/kataras/golog v0.0.0-20180321173939-03be10146386
 	github.com/kataras/iris v0.0.0-20190526035200-63c26dc97890
 	github.com/mojocn/base64Captcha v0.0.0-20190509175000-87c9c59224d8
+	github.com/robfig/cron/v3 v3.0.0-rc1
 	golang.org/x/net v0.0.0-20181114220301-adae6a3d119a
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 )

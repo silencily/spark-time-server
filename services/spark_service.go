@@ -11,6 +11,7 @@ type SparkService interface {
 	GetImg(id string) (img []byte, contentType string)
 	List() []models.Spark
 	Save(spark *models.Spark, imgReader io.Reader) error
+	Clean() error
 }
 
 func NewSparkService() SparkService {
@@ -21,6 +22,17 @@ func NewSparkService() SparkService {
 
 type sparkServiceImpl struct {
 	sparkRepository repositories.SparkRepository
+}
+
+func (s *sparkServiceImpl) Clean() error {
+	query := map[string]interface{}{
+		"limit": 100,
+	}
+	err := s.sparkRepository.Clean(query)
+	if err != nil {
+		return err
+	}
+	return nil
 }
 
 func (s *sparkServiceImpl) List() []models.Spark {
