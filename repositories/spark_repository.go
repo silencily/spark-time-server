@@ -43,6 +43,7 @@ type sparkCouchDBRepository struct {
 
 func (rep *sparkCouchDBRepository) Clean(query map[string]interface{}) error {
 	errorCount := 0
+	cleanCount := 0
 	rows, err := rep.template.Query(context.TODO(), SPARK_COUCHDB_DDOC_SPARK, SPARK_COUCHDB_VIEW_DYING, query)
 	if err != nil {
 		errorCount++
@@ -64,7 +65,9 @@ func (rep *sparkCouchDBRepository) Clean(query map[string]interface{}) error {
 			getLogger().Errorf("Delete error-[docId:%s,docRev:%s]", docId, docRev)
 			continue
 		}
+		cleanCount++
 	}
+	getLogger().Infof("Cleaned [%d] dying sparks.", cleanCount)
 	if errorCount > 0 {
 		errMsg := fmt.Sprintf("Clean dying spark occurs %d errors ", errorCount)
 		return errors.New(errMsg)
