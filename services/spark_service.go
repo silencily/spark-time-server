@@ -26,6 +26,8 @@ type sparkServiceImpl struct {
 }
 
 func (s *sparkServiceImpl) Clean() error {
+	//采用endkey对created_time进行过滤，避免由于couchdb view 对一个doc只进行一次map函数执行（index)
+	//而造成的不能在map函数中进行获取当前时间比较导致不能查询出超时的spark
 	sec, _ := time.ParseDuration("-55s")
 	endKey := time.Now().Add(sec).Format("2006-01-02 15:04:05")
 	query := map[string]interface{}{
