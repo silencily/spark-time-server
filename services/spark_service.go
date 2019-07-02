@@ -5,6 +5,7 @@ import (
 	"github.com/silencily/sparktime/repositories"
 	"io"
 	"io/ioutil"
+	"time"
 )
 
 type SparkService interface {
@@ -25,8 +26,11 @@ type sparkServiceImpl struct {
 }
 
 func (s *sparkServiceImpl) Clean() error {
+	sec, _ := time.ParseDuration("-55s")
+	endKey := time.Now().Add(sec).Format("2006-01-02 15:04:05")
 	query := map[string]interface{}{
-		"limit": 100,
+		"limit":  100,
+		"endkey": "\"" + endKey + "\"",
 	}
 	err := s.sparkRepository.Clean(query)
 	if err != nil {
