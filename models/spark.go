@@ -29,6 +29,7 @@ type Spark struct {
 	Content     string `json:"content"`
 	CreatedTime Time   `json:"created_time"`
 	ImgName     string `json:"img_name"`
+	IsAd        bool   `json:"is_ad"`
 }
 
 //响应结果，code值为'1'时为成功；其他值为错误情况，message为错误信息
