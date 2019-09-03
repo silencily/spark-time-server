@@ -69,4 +69,5 @@ func spark(app *mvc.Application) {
 	app.Register(sparkService)
 
 	app.Handle(new(controllers.SparkController))
+
 }
